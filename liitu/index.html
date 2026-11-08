@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="referrer" content="no-referrer">
+<title>Kutse Taldrikusse</title>
+<meta property="og:title" content="Kutse Taldrikusse">
+<meta property="og:description" content="Sama nädala menüü ja ostunimekiri kogu pere telefonides.">
+<meta property="og:image" content="https://mannamaa.github.io/taldrik/liitu/ikoon.jpg">
+<style>
+  :root { --bg: #f2f4ef; --card: #ffffff; --text: #1a1e19; --soft: #5d6559; --line: #dce1d6; --accent: #2c7a4c; --tag: #ffd43b; --btn: #1a1e19; --btn-text: #ffffff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f120e; --card: #1a1e19; --text: #ecf0e7; --soft: #a1aa9c; --line: #2e352b; --accent: #5bc283; --btn: #ecf0e7; --btn-text: #0f120e; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width: 460px; margin: 0 auto; padding: 40px 16px 48px; text-align: center; }
+  .icon { width: 96px; height: 96px; border-radius: 22px; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18); }
+  h1 { font-size: 32px; line-height: 1.15; margin: 20px 0 8px; letter-spacing: -0.01em; }
+  h2 { font-size: 18px; margin: 0 0 6px; }
+  p { margin: 0 0 10px; }
+  .lead { font-size: 19px; }
+  .soft { color: var(--soft); }
+  .small { font-size: 15px; }
+  .btn { display: block; width: 100%; margin: 22px 0 10px; padding: 16px 20px; border: 0; border-radius: 16px; background: var(--btn); color: var(--btn-text); font-family: inherit; font-size: 19px; font-weight: 700; line-height: 1.2; text-align: center; text-decoration: none; cursor: pointer; }
+  .btn.ghost { margin: 12px 0 0; padding: 13px 18px; background: transparent; color: var(--text); border: 2px solid var(--line); font-size: 17px; }
+  .card { margin-top: 26px; padding: 18px 18px 16px; background: var(--card); border: 1px solid var(--line); border-radius: 18px; text-align: left; }
+  ol { margin: 6px 0 0; padding-left: 22px; }
+  li { margin-bottom: 4px; }
+  .foot { margin-top: 30px; }
+  a { color: var(--accent); }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="ikoon.jpg" alt="" width="96" height="96">
+  <h1 id="hello">Kutse Taldrikusse</h1>
+  <p class="lead" id="lead">Sind kutsutakse Taldrikusse: sama nädala menüü ja ostunimekiri kogu pere telefonides.</p>
+
+  <div id="ok">
+    <a class="btn" id="open" href="#">Ava Taldrik</a>
+    <p class="soft small" id="hint">Taldrik avaneb ja küsib, kas liituda perega.</p>
+
+    <section class="card">
+      <h2>Pole veel Taldrikut?</h2>
+      <p>Laadi see TestFlightist. Siis tule tagasi sellele lehele ja vajuta "Ava Taldrik".</p>
+      <a class="btn ghost" href="https://testflight.apple.com/join/sUDwckfw">Laadi Taldrik</a>
+    </section>
+
+    <section class="card">
+      <h2>Kui Taldrik ei avanenud</h2>
+      <ol>
+        <li>Kopeeri kutse link.</li>
+        <li>Ava Taldrik.</li>
+        <li>Vajuta "Liitu perega" (avalehel või Seadetes pere all) ja siis "Kleebi".</li>
+      </ol>
+      <button class="btn ghost" id="copy" type="button">Kopeeri kutse link</button>
+      <p class="soft small" id="copied" hidden>Kopeeritud. Ava nüüd Taldrik.</p>
+    </section>
+  </div>
+
+  <div id="bad" hidden>
+    <section class="card">
+      <h2>Selles lingis pole kutset</h2>
+      <p>Palu pereliikmel saata uus kutse: Taldrik > Seaded > Pere ühes äpis > "Kutsu" sinu nime juures.</p>
+    </section>
+  </div>
+
+  <p class="soft small foot"><a href="../">Taldrik</a> · <a href="../privaatsus/">Privaatsus</a></p>
+</main>
+<script>
+(function () {
+  // kutse on lingi #-osas: seda ei saadeta serverisse
+  var q = new URLSearchParams(location.hash.slice(1));
+  var k = q.get('k'), p = q.get('p'), n = q.get('n'), f = q.get('f');
+  if (!k) {
+    document.getElementById('ok').hidden = true;
+    document.getElementById('bad').hidden = false;
+    return;
+  }
+  if (n) document.getElementById('hello').textContent = 'Tere, ' + n + '!';
+  if (f) document.getElementById('lead').textContent = f + ' kutsub sind Taldrikusse: sama nädala menüü ja ostunimekiri kogu pere telefonides.';
+
+  var app = 'taldrik://liitu?k=' + encodeURIComponent(k);
+  if (p) app += '&p=' + encodeURIComponent(p);
+  if (n) app += '&n=' + encodeURIComponent(n);
+  if (f) app += '&f=' + encodeURIComponent(f);
+  document.getElementById('open').href = app;
+
+  var ios = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  if (ios) {
+    // Safari küsib "Kas avada rakenduses Taldrik?"
+    setTimeout(function () { location.href = app; }, 400);
+  } else {
+    document.getElementById('hint').textContent = 'Ava see link oma iPhone\'is, kus on Taldrik.';
+  }
+
+  document.getElementById('copy').addEventListener('click', function () {
+    var done = function () { document.getElementById('copied').hidden = false; };
+    var url = location.href;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(done, function () { window.prompt('Kopeeri see link:', url); });
+    } else {
+      window.prompt('Kopeeri see link:', url);
+    }
+  });
+})();
+</script>
+</body>
+</html>
