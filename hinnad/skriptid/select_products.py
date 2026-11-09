@@ -156,6 +156,7 @@ def as_app(p, z):
         "url": p.get("url"),
         "perPiece": bool(p.get("perpiece")),
         "until": p.get("until"),
+        "image": p.get("image"),
     }
 
 

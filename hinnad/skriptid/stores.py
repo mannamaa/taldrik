@@ -99,7 +99,7 @@ def parse_size(text):
 
 
 def product(name, price, regular=None, card=None, size=None, sunit=None, loose=False,
-            kgprice=None, url=None, perpiece=False, until=None):
+            kgprice=None, url=None, perpiece=False, until=None, image=None):
     return {
         "name": re.sub(r"\s+", " ", html.unescape(name or "")).strip(),
         "price": round(price, 2) if price is not None else None,
@@ -108,6 +108,8 @@ def product(name, price, regular=None, card=None, size=None, sunit=None, loose=F
         "size": size, "sunit": sunit, "loose": bool(loose),
         "kgprice": round(kgprice, 3) if kgprice else None,
         "url": url, "perpiece": bool(perpiece), "until": until,
+        # väike tootepilt (ostunimekirja reale ja "Leia see pakk")
+        "image": image,
     }
 
 
@@ -140,9 +142,11 @@ def selver(query):
         perpiece = False
         if not loose and re.search(r",\s*tk\s*$", name, re.I) and (sunit in (None, "tk")) and (size in (None, 1.0)):
             perpiece, size, sunit = True, None, None
+        img = s.get("thumbnail") or s.get("image")
+        img = "https://www.selver.ee/img/200/200/resize" + img if isinstance(img, str) and img.startswith("/") else None
         out.append(product(name, price, regular, card, size, sunit, loose,
                            num(s.get("unit_price")), "https://www.selver.ee/" + (s.get("url_key") or ""),
-                           perpiece))
+                           perpiece, image=img))
     return out
 
 
@@ -152,6 +156,7 @@ RIMI_OLD = re.compile(r"Tavahind:\s*([\d.,]+)\s*€")
 RIMI_UNIT = re.compile(r"Hind ühiku kohta:\s*([\d.,]+)\s*€/(\w+)")
 RIMI_HREF = re.compile(r'href="(/epood/ee/tooted/[^"]+)"')
 RIMI_GTM = re.compile(r"data-gtm-eec-product='([^']*)'")
+RIMI_IMG = re.compile(r'<img[^>]+src="(https://rimibaltic-res\.cloudinary\.com/[^"]+)"')
 
 
 def rimi(query):
@@ -179,17 +184,19 @@ def rimi(query):
         href = RIMI_HREF.search(part)
         link = "https://www.rimi.ee" + href.group(1) if href else None
         regular = num(old.group(1)) if old else price
+        im = RIMI_IMG.search(part)
+        img = im.group(1).replace("w_auto", "w_200") if im else None
         if per == "kg":
             # kaalukaup: price on ühe umbkaudse tüki hind, õige kilohind on "Hind ühiku kohta"
             ratio = (regular / price) if price else 1.0
             out.append(product(name, kgprice, (kgprice or 0) * ratio, None, None, None, True,
-                               kgprice, link))
+                               kgprice, link, image=img))
             continue
         size, sunit = parse_size(name)
         perpiece = False
         if size is None and re.search(r"\btk\b", name, re.I):
             perpiece = True
-        out.append(product(name, price, regular, None, size, sunit, False, kgprice, link, perpiece))
+        out.append(product(name, price, regular, None, size, sunit, False, kgprice, link, perpiece, image=img))
     return out
 
 
@@ -238,21 +245,23 @@ def barbora(query):
         kgprice = num(cu.get("price"))
         loose = (it.get("unit") or {}).get("type") == "kg"
         link = "https://barbora.ee/p/" + (it.get("url") or "")
+        img = it.get("image") if isinstance(it.get("image"), str) else None
         if loose:
             # Kaalukaubal on kilohind comparativeUnit.price, kampaania korral arvuta tavahinna suhe
             ratio = (regular / price) if price else 1.0
             if card is not None and promo and promo.get("oldPrice"):
                 kg = kgprice * (num(promo.get("oldPrice")) / card) if card else kgprice
-                out.append(product(name, kg, kg, kgprice, None, None, True, kg, link))
+                out.append(product(name, kg, kg, kgprice, None, None, True, kg, link, image=img))
             else:
-                out.append(product(name, kgprice, (kgprice or 0) * ratio, None, None, None, True, kgprice, link))
+                out.append(product(name, kgprice, (kgprice or 0) * ratio, None, None, None, True, kgprice, link,
+                                   image=img))
             continue
         size, sunit = parse_size(name)
         if size is None and kgprice and cu.get("type") in ("kg", "l") and price:
             size = round(price / kgprice * 1000)
             sunit = "g" if cu.get("type") == "kg" else "ml"
         perpiece = size is None and re.search(r"\btk\b", name, re.I) is not None
-        out.append(product(name, price, regular, card, size, sunit, False, kgprice, link, perpiece))
+        out.append(product(name, price, regular, card, size, sunit, False, kgprice, link, perpiece, image=img))
     return out
 
 
@@ -297,7 +306,8 @@ def lidl_offers(now=None):
         if size is None and kgprice and abs(kgprice - price) < 0.005:
             loose = True
         link = "https://www.lidl.ee" + (g.get("canonicalUrl") or "")
-        out.append(product(name, price, regular, None, size, sunit, loose, kgprice, link, False, until))
+        out.append(product(name, price, regular, None, size, sunit, loose, kgprice, link, False, until,
+                           image=g.get("image") if isinstance(g.get("image"), str) else None))
     return out
 
 
@@ -329,13 +339,16 @@ def coop(query):
         except (TypeError, ValueError):
             continue
         loose = coop_loose(name)
+        first = (it.get("images") or [{}])[0] if isinstance(it.get("images"), list) and it.get("images") else {}
+        img = first.get("thumbnail") or first.get("src")
         if loose:
-            out.append(product(name, price, regular, None, None, None, True, price, it.get("permalink")))
+            out.append(product(name, price, regular, None, None, None, True, price, it.get("permalink"), image=img))
             continue
         size, sunit = parse_size(name)
         perpiece = size is None and re.search(r"\btk\b", name, re.I) is not None
         kg = price / size * 1000 if size and sunit in ("g", "ml") else None
-        out.append(product(name, price, regular, None, size, sunit, False, kg, it.get("permalink"), perpiece))
+        out.append(product(name, price, regular, None, size, sunit, False, kg, it.get("permalink"), perpiece,
+                           image=img))
     return out
 
 

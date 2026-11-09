@@ -21,6 +21,29 @@ PATH = os.path.join(HERE, "..", "TaldrikCore", "Sources", "TaldrikCore", "Resour
 
 # id: (rasv, süsivesikud)
 MACROS = {
+    # küpsetamine, magus, pähklid (oma roogade jaoks)
+    "mesi": (0, 81),
+    "kakao": (21, 12),
+    "sokolaad": (42, 34),
+    "mandlijahu": (54, 9),
+    "rosinad": (0.5, 70),
+    "pahklid": (65, 7),
+    "mandlid": (50, 9),
+    "sarapuupahklid": (61, 7),
+    "kupsetuspulber": (0, 25),
+    "vanillisuhkur": (0, 99),
+    "sooda": (0, 0),
+    "kookoshelbed": (65, 7),
+    "tarklis": (0.1, 86),
+    "kondenspiim": (8.7, 54),
+    "zelatiin": (0.1, 0),
+    "datlid": (0.4, 67),
+    "aprikoosid": (0.5, 55),
+    "paevalilleseemned": (51, 11),
+    "toorjuust": (24, 3.5),
+    "kupsised": (21, 64),
+    "lambaliha": (23, 0),
+    "suitsuvorst": (29, 2),
     # liha
     "hakkliha": (20, 0),
     "kanafilee": (1.5, 0),

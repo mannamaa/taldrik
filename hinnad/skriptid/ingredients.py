@@ -37,11 +37,11 @@ ing("hakkliha", "Hakkliha (sea-veise)", "g", "liha", 250, 17,
     r"kana|broiler|kalkun|lamba|ulukil|hirve|põdra|metssea|vegan|taim|soja|frikadell|kebab|maitsest|marin|"
     r"kotlet|täidis|külmutatud|grill|veise\s*hakk|veisehakk|^veise", (250, 1600))
 ing("kanafilee", "Kana rinnafilee", "g", "liha", 110, 23,
-    ["broileri rinnafilee", "kana rinnafilee", "rinnafilee"], [r"filee|filé", r"broiler|br\.|kana|rinna"],
+    ["broileri rinnafilee", "kana rinnafilee", "rinnafilee"], [r"filee|filé|fil\.", r"broiler|br\.|kana|rinna"],
     r"marin|maitsest|grill|suitsu|keedu|keedetud|sous|vide|kebab|vürts|paneer|nugget|šašlõk|šnitsel|minutipihv|"
-    r"aasia|bbq|teriyaki|küpsetatud|praetud|ahjus|sink|vorst|kalkun|pardi|viil|tükid kastmes|lõhe|kala|sea|"
+    r"aasia|bbq|teriyaki|küpsetatud|praetud|ahjus|sink|vorst|kalkun|kalk\.|pardi|viil|tükid kastmes|lõhe|kala|sea|"
     r"veise|kõrvits|tikka|tandoori|pesto|mesi|sinep|küüslaugu|sidruni|ürdi|paprika|karri|toorjuust|juust|"
-    r"chicken|kintsu|reie|koiv|tiiva|hakkliha|jogurt|mar\.", (300, 2600))
+    r"chicken|kintsu|reie|koiv|tiiva|hakkliha|jogurt|mar\.|sriracha|majo|magus|hapu", (300, 2600))
 ing("kanakoivad", "Kanakoivad", "g", "liha", 150, 14,
     ["broileri koivad", "broileri poolkoivad", "kanakoivad", "broileri kintsud"],
     [r"broiler|br\.|kana|jah\.", r"koib|koiva|kintsu|reie|sääre|trummi|poolkoib"],
@@ -883,5 +883,95 @@ ing("taimfraiche", "Kaerakreem (hapukoore asemel)", "g", "piim", 160, 1,
     r"köögikreem|jook|pistaatsia|maitseline|maasika|vaarika|šokolaadi|vanilli|kohvi|krõps|näkileib",
     (150, 600), loose=False, ready=False)
 
+# ---------------------------------------------------------------- Küpsetamine, magus, pähklid (pere oma roogade jaoks,
+# raport 3.8 L45): menüü neid ise ei pane, aga oma retsepti kalorid ja ostunimekiri tulevad õiged
+ing("mesi", "Mesi", "g", "kuiv", 327, 0.4,
+    ["mesi", "lillemesi"], [r"\bmesi\b|\w+mesi\b|mesi,"],
+    r"mesilas|kommi|küpsis|šokolaad|jogurt|helbe|müsli|batoon|baton|sinep|kaste|tee\b|kreem|seebi|šampoon|"
+    r"teraviljaga|pähklitega|viin\b|gorilka|sauna|ingveri|taruvaigu|lavendel|eukal", (200, 1100), loose=False, ready=False)
+ing("kakao", "Kakaopulber", "g", "kuiv", 360, 23,
+    ["kakaopulber", "kakao pulber"], [r"kakaopulber|kakao\s+pulber"],
+    r"jook|joogi|instant|kiir|nesquik|piim|kohvi|kommi|batoon|baton|küpsis|helbe|pähkl|kreem|tahvel|šokolaad|"
+    r"või\b|oad|uba|nibs|kook", (100, 600), loose=False, ready=False)
+ing("sokolaad", "Tume šokolaad", "g", "kuiv", 580, 8,
+    ["tume šokolaad", "šokolaad 70%", "must šokolaad"], [r"šokolaad|chocolate", r"\btume|\bmust\b|dark|bitter|\b\d{2}\s*%"],
+    r"piima|valge|kommi|batoon|baton|küpsis|jäätis|kook|jook|kreem|täid|pähkl|mandli|rosin|maasika|apelsin|"
+    r"kohvi|vahvel|helbe|müsli|soola|mündi|chili|tšilli|tshilli|kookos|karamell|mesi|kirs|sarap|trühvl|mango|"
+    r"jõhvik|vaarik|king size|tupla|bubble|plaadid|suhkruvaba|magusain", (80, 400), loose=False, ready=False)
+ing("mandlijahu", "Mandlijahu", "g", "kuiv", 610, 22,
+    ["mandlijahu"], [r"mandli", r"jahu"], r"kook|küpsis|segu\b|pannkoogi", (100, 1100), loose=False, ready=False)
+ing("rosinad", "Rosinad", "g", "kuiv", 310, 3,
+    ["rosinad"], [r"^(?:[\w.]+\s+){0,2}rosin(?:ad|a)?\b"],
+    r"šokolaad|šok\.|jogurt|müsli|helbe|küpsis|sai|kringel|kook|pähkl|segu|batoon|baton|leib|kohupiim|vahvel|"
+    r"jäätis|piimakr|keeks|kukkel|kuklid|halvaa",
+    (100, 1100), loose=False, ready=False)
+ing("pahklid", "Kreeka pähklid", "g", "kuiv", 654, 15,
+    ["kreeka pähklid", "kreeka pähkli tuumad"], [r"kreeka", r"pähk"],
+    r"jogurt|salat|sai|leib|kook|küpsis|šokolaad|mesi|segu|batoon|baton|kreem|koorega|õli|juust|brie", (50, 1100),
+    loose=False, ready=False)
+ing("mandlid", "Mandlid", "g", "kuiv", 590, 21,
+    ["mandlid", "mandlid kooreta"], [r"^(?:[\w.]+\s+){0,2}(?:mandlid|mandel)\b"],
+    r"jahu|helbe|piim|jook|šokolaad|šok\.|kommi|pasta|või\b|kreem|lõhna|essents|aroom|kook|küpsis|soola|sool\.|röst|"
+    r"suitsu|mesi|batoon|baton|segu|laastud|karam|jäätis|kakao|kinke", (50, 1100), loose=False, ready=False)
+ing("sarapuupahklid", "Sarapuupähklid", "g", "kuiv", 628, 15,
+    ["sarapuupähklid"], [r"^(?:[\w.]+\s+){0,2}sarapuupähkl(?:id|ad)?\b"],
+    r"šokolaad|šok\.|kreem|nutella|kommi|jook|pasta|vahvel|kook|küpsis|soola|mesi|batoon|baton|segu|karamell|"
+    r"toffifee|jäätis|määre|kapsl|müsli|šok", (50, 1100),
+    loose=False, ready=False)
+ing("kupsetuspulber", "Küpsetuspulber", "g", "kuiv", 100, 0,
+    ["küpsetuspulber"], [r"küpsetuspulber|küpsetus\s+pulber"], r"segu|koogi|pannkoogi", (5, 600),
+    loose=False, pantry=True, ready=False)
+ing("vanillisuhkur", "Vanillisuhkur", "g", "kuiv", 395, 0,
+    ["vanillisuhkur", "vanilliinsuhkur"], [r"vanilli\w*\s*suhkur"], r"kook|küpsis|jäätis|jogurt|kohupiim", (5, 600),
+    loose=False, pantry=True, ready=False)
+ing("sooda", "Söögisooda", "g", "kuiv", 0, 0,
+    ["söögisooda"], [r"söögisooda|sooda\b"], r"jook|vesi|joogi|limonaad|mineraal|pesu|puhastus", (20, 1100),
+    loose=False, pantry=True, ready=False)
+ing("kookoshelbed", "Kookoshelbed", "g", "kuiv", 660, 7,
+    ["kookoshelbed", "kookoslaastud", "kookoshake"], [r"kooko[sš]", r"helbe|helve|[sš]elbe|laast|hake|[sš]ake|hakitud|riiv"],
+    r"piim|kreem|jook|õli|kommi|šokolaad|küpsis|batoon|baton|vesi|jogurt|\bkook\b|koogi|nektar|kaera|müsli",
+    (50, 1100), loose=False, ready=False)
+ing("tarklis", "Tärklis (kartuli- või maisi-)", "g", "kuiv", 350, 0.1,
+    ["kartulitärklis", "maisitärklis"], [r"tärklis|maizena"], r"puding|kissell|kreem|kaste\b", (100, 1100),
+    loose=False, pantry=True, ready=False)
+ing("kondenspiim", "Kondenspiim (magustatud)", "g", "kons", 321, 7.9,
+    ["kondenspiim", "kondenseeritud piim"], [r"kondenspiim\b|kondenseeritud\s+piim"],
+    r"keedetud|karamell|kohvi|šok|kakao|jäätis|küpsis|hello", (200, 1100),
+    loose=False, ready=False)
+ing("zelatiin", "Želatiin", "g", "kuiv", 335, 85,
+    ["želatiin", "lehtželatiin"], [r"[žz]elatiin"], r"kommi|marmelaad|tarretis|vahukomm|kook|kapsel|tablet", (5, 300),
+    loose=False, ready=False)
+ing("datlid", "Datlid (kivideta)", "g", "kuiv", 282, 2.5,
+    ["datlid", "kivideta datlid"], [r"^(?:[\w.]+\s+){0,2}datlid\b", r"kivideta|kivita|kuiv"],
+    r"siirup|batoon|baton|pasta|kreem|šok|kook|küpsis|pulber|true\s*dates|värske", (100, 1100),
+    loose=False, ready=False)
+ing("aprikoosid", "Kuivatatud aprikoosid", "g", "kuiv", 241, 3.4,
+    ["kuivatatud aprikoosid", "aprikoosid kuivatatud"], [r"aprikoos", r"kuiv|pehme"],
+    r"moos|mahl|jogurt|nektar|konserv|siirup|siir\.|kompott|kook|küpsis|smuuti|pirukas|jook|purée|püree|jäätis|"
+    r"poolitat|d[zž]emm|pardi|vaht|liha",
+    (100, 1100), loose=False, ready=False)
+ing("paevalilleseemned", "Päevalilleseemned", "g", "kuiv", 584, 21,
+    ["päevalilleseemned", "kooritud päevalilleseemned"], [r"päevalille", r"seem"],
+    r"õli|leib|sai|batoon|baton|küpsis|soola|sool\.|röst|maitse|maitse|lindude|linnu|segu|triib|juust|kreem|sibul|"
+    r"\bmust|valged|xxl|bazaro", (50, 1100), loose=False, ready=False)
+ing("toorjuust", "Toorjuust (naturaalne)", "g", "piim", 250, 5.5,
+    ["toorjuust", "toorjuust naturaalne", "philadelphia"], [r"toorjuust|philadelphia|kreemjuust"],
+    r"maitse|ürdi|küüslaugu|lõhe|kurgi|tilli|kreveti|sibula|vürtsi|paprika|chili|mesi|vegan|taimne|laktoosivaba\s+light|"
+    r"kook|tort|kreem\s*kook|mascarpone|saiake|muffin|lihapall|kitse|rosmariin|ananass|mandli|gorgonzola|"
+    r"mädarõik|murulaug|vanilj|vanilli|ürt|tšilli|küüsl|maius|milka|tomat|basiilik|toorjuustukreem|chavroux|"
+    r"kiitse|proteiin", (100, 600), loose=False, ready=False)
+ing("kupsised", "Küpsised (koogipõhja jaoks)", "g", "kuiv", 480, 7,
+    ["digestive küpsised", "küpsised"], [r"küpsis", r"digestive|maria\b|klassik|petit|beurre|täistera|ekstra|kaera"],
+    r"šokolaadi|täidis|kreem|vahvel|kommi|koera|kassi|beebi|lapse|soolased|kreeker|laste|glasuur|moosi|pähkli|"
+    r"maasika|kookose|sidruni|kaneeli|ingveri|piparkook|vanilli|gluteeni|koer|kass|suhkruvaba|magusain|s\.v\.|"
+    r"šoko|kakao|kondens|mooni|rosin|s\.vaba|glut", (150, 700), loose=False, ready=False)
+ing("lambaliha", "Lambaliha", "g", "liha", 280, 17,
+    ["lambaliha", "lamba abatükk", "lambakints"], [r"lamba|talle"],
+    r"vorst|kotlet|šašlõkk|marin|kebab|konserv|kons\.|pelmeen|vill|nahk|toit\b|kass|koer|sööt|hinkaal|khinkal|"
+    r"juust|jogurt|piima|läätse|maius|eine|viiner|soole", (300, 2500))
+ing("suitsuvorst", "Suitsuvorst", "g", "liha", 330, 15,
+    ["suitsuvorst", "poolsuitsuvorst"], [r"suitsu\w*\s*vorst|suitsuvorst"],
+    r"kana|kalkun|juustuga|pizza|piruka|snäkk|krõps|viilutatud\s+kana|vegan|taim", (150, 1100), loose=False)
+
 ING = {x["id"]: x for x in I}
-assert len(ING) == 149, len(ING)
+assert len(ING) == 171, len(ING)
