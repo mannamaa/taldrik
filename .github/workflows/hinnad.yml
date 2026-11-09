@@ -1,0 +1,41 @@
+# Taldriku hinnad iga päev: toob poodide e-poodidest tooted ja hinnad ning avaldab hinnad/prices.json.
+# Äpp laeb selle faili (https://mannamaa.github.io/taldrik/hinnad/prices.json) kuni kaks korda päevas.
+# Kui mõni pood annab järsku palju vähem tooteid, jääb eilne fail alles (kontroll.py).
+name: Hinnad
+
+on:
+  schedule:
+    - cron: "20 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: hinnad
+
+jobs:
+  hinnad:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Toon hinnad poodidest
+        working-directory: hinnad/skriptid
+        env:
+          TALDRIK_OUT: ${{ github.workspace }}/hinnad
+        run: |
+          cp ../prices.json "$RUNNER_TEMP/vana.json"
+          python3 fetch.py --fresh
+          python3 select_products.py
+          python3 kontroll.py "$RUNNER_TEMP/vana.json" ../prices.json
+      - name: Avaldan
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add hinnad/prices.json
+          if git diff --cached --quiet; then echo "Hinnad samad"; exit 0; fi
+          git commit -m "Hinnad $(date -u +%Y-%m-%d)"
+          git push
