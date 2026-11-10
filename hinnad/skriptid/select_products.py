@@ -160,6 +160,13 @@ def as_app(p, z):
     }
 
 
+def store_products(raw, st, ing):
+    """Poe tooted, mille seast tooraine filter valib: Coopil kogu kataloog (võti "*"), mujal otsingute vastused."""
+    if "*" in raw[st]:
+        return raw[st]["*"]
+    return [p for q in ing["q"] for p in raw[st].get(q, [])]
+
+
 def candidates_for(ing, products):
     seen = set()
     out = []
@@ -192,7 +199,7 @@ def main():
     for ing in I:
         row = {}
         for st in STORES:
-            prods = [p for q in ing["q"] for p in raw[st].get(q, [])]
+            prods = store_products(raw, st, ing)
             picked = choose(candidates_for(ing, prods))
             row[st] = [as_app(p, z) for p, z, _ in picked]
             for p, z, up in picked:
@@ -263,7 +270,7 @@ def main():
 def why(ing_id, store):
     raw, lidl = load()
     ing = next(x for x in I if x["id"] == ing_id)
-    prods = lidl if store == "lidl" else [p for q in ing["q"] for p in raw[store].get(q, [])]
+    prods = lidl if store == "lidl" else store_products(raw, store, ing)
     seen = set()
     for p in prods:
         key = (p["name"], p.get("size"))

@@ -80,6 +80,8 @@ MACROS = {
     "piim": (2.5, 4.7),
     "hapukoor": (20, 3.3),
     "koor": (16, 4),
+    "hapukoor10": (10, 3.8),
+    "kohvikoor": (10, 4),
     "void": (82, 0.7),
     "juust": (27.5, 0),
     "kohupiim": (5, 2.5),

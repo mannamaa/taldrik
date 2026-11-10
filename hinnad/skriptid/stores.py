@@ -313,42 +313,81 @@ def lidl_offers(now=None):
 
 # ---------------------------------------------------------------- Coop (Haapsalu e-pood, WooCommerce)
 def coop_loose(name):
-    """Kaalukaup: nimes on "kg" ilma arvuta ("Banaan kg", "Kurk kiles kg", "Kartul kg lahtine")."""
+    """Kaalukaup: nimes on "kg" ilma arvuta ("Banaan kg", "Kurk kiles kg", "Kartul kg lahtine") või ligikaudne
+    kaal ("Sea esikoot Rakvere ~1kg"): ligikaudse kaaluga liha ja kala hind on kilohind, mitte paki hind."""
+    if re.search(r"~\s*\d", name):
+        return True
     return (re.search(r"(^|\s)kg(\s|$)", name, re.I) is not None
             and re.search(r"\d\s*kg\b", name, re.I) is None)
+
+
+# Kataloogi osad, kus toitu ei ole (lemmikloomad, alkohol, majapidamine, ettetellitavad vaagnad)
+COOP_SKIP = re.compile(r"kassitoit|koeratoit|lemmikloom|lindude, näriliste|alkohol|õlu|siider|vein|viin\b|liköör|"
+                       r"konjak|brändi|viski|rumm|dzinn|long drink|kokteil|hügieen|kosmeetika|deodorant|"
+                       r"juuksehooldus|suuhooldus|kehahooldus|näohooldus|raseerimis|seebid|mähkmed|beebikaubad|"
+                       r"kodutarbed|koristus|pesupesemis|nõudepesu|paberitooted|küünlad|hoidistamisvahend|"
+                       r"apteegi|tervisetooted|vitamiin|garderoob|sokid|hooaja- ja vabaaja|aiakaubad|autokaubad|"
+                       r"mänguasjad|matkatarbed|koolikaubad|kahjuritõrje|grillsöed|kinkepaber|kodutekstiil|"
+                       r"tubaka|ajakirja|ettetellimisel|ettetellitavad|puhastusvahend|nahahooldus|deodorandid|pehme paber|"
+                       r"patareid|spordikaubad|saunatarbed|rannatarbed|päevituskreem|lastetoidud", re.I)
+
+
+def coop_item(it):
+    if not it.get("is_in_stock") or not it.get("is_purchasable", True):
+        return None
+    name = html.unescape(it.get("name") or "")
+    if re.match(r"haapsalu\b", name, re.I):
+        return None  # Coop Haapsalu oma köögi valmistoidud ja pagaritooted
+    pr = it.get("prices") or {}
+    minor = int(pr.get("currency_minor_unit") or 2)
+    try:
+        price = int(pr.get("price")) / 10 ** minor
+        regular = int(pr.get("regular_price") or pr.get("price")) / 10 ** minor
+    except (TypeError, ValueError):
+        return None
+    loose = coop_loose(name)
+    first = (it.get("images") or [{}])[0] if isinstance(it.get("images"), list) and it.get("images") else {}
+    img = first.get("thumbnail") or first.get("src")
+    if loose:
+        return product(name, price, regular, None, None, None, True, price, it.get("permalink"), image=img)
+    size, sunit = parse_size(name)
+    perpiece = size is None and re.search(r"\btk\b", name, re.I) is not None
+    kg = price / size * 1000 if size and sunit in ("g", "ml") else None
+    return product(name, price, regular, None, size, sunit, False, kg, it.get("permalink"), perpiece, image=img)
+
+
+COOP_API = "https://coophaapsalu.ee/wp-json/wc/store/v1/products?per_page=100"
 
 
 def coop(query):
     """Coopil pole keskset e-poodi. Coop Haapsalu e-pood on piirkondlik, hinnad võivad teistes
     piirkondades erineda. Hinnad on sentides."""
-    url = ("https://coophaapsalu.ee/wp-json/wc/store/v1/products?per_page=100&search="
-           + urllib.parse.quote(query))
-    d = json.loads(http_get(url, accept="application/json"))
-    out = []
-    for it in d if isinstance(d, list) else []:
-        if not it.get("is_in_stock") or not it.get("is_purchasable", True):
-            continue
-        name = html.unescape(it.get("name") or "")
-        if re.match(r"haapsalu\b", name, re.I):
-            continue  # Coop Haapsalu oma köögi valmistoidud ja pagaritooted
-        pr = it.get("prices") or {}
-        minor = int(pr.get("currency_minor_unit") or 2)
-        try:
-            price = int(pr.get("price")) / 10 ** minor
-            regular = int(pr.get("regular_price") or pr.get("price")) / 10 ** minor
-        except (TypeError, ValueError):
-            continue
-        loose = coop_loose(name)
-        first = (it.get("images") or [{}])[0] if isinstance(it.get("images"), list) and it.get("images") else {}
-        img = first.get("thumbnail") or first.get("src")
-        if loose:
-            out.append(product(name, price, regular, None, None, None, True, price, it.get("permalink"), image=img))
-            continue
-        size, sunit = parse_size(name)
-        perpiece = size is None and re.search(r"\btk\b", name, re.I) is not None
-        kg = price / size * 1000 if size and sunit in ("g", "ml") else None
-        out.append(product(name, price, regular, None, size, sunit, False, kg, it.get("permalink"), perpiece,
-                           image=img))
+    d = json.loads(http_get(COOP_API + "&search=" + urllib.parse.quote(query), accept="application/json"))
+    return [p for p in map(coop_item, d if isinstance(d, list) else []) if p]
+
+
+def coop_catalog(log=None, delay=0.3):
+    """Kogu Coop Haapsalu e-poe toidukaup (umbes 100 lehte). Coopi otsing leiab ainult tooted, mille nimes on
+    otsingusõna täpselt ("pangaasiuse filee" ei leia toodet "Pangasiusefilee"), nii et otsingusõnade kaupa jäi
+    suur osa sobivaid tooteid leidmata. Kataloogist valib tooted tooraine filter (select_products.py)."""
+    out, seen, page = [], set(), 1
+    while True:
+        d = json.loads(http_get(COOP_API + "&orderby=id&order=asc&page=%d" % page, accept="application/json"))
+        if not isinstance(d, list) or not d:
+            break
+        for it in d:
+            if it.get("id") in seen:
+                continue
+            seen.add(it.get("id"))
+            if any(COOP_SKIP.search(c.get("name") or "") for c in it.get("categories") or []):
+                continue
+            p = coop_item(it)
+            if p:
+                out.append(p)
+        if log and (page % 10 == 0):
+            log("coop: kataloogi leht %d, %d toodet" % (page, len(out)))
+        page += 1
+        time.sleep(delay)
     return out
 
 

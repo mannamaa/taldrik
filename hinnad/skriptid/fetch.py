@@ -13,7 +13,7 @@ import threading
 import time
 
 from ingredients import I
-from stores import FETCHERS, lidl_offers
+from stores import FETCHERS, coop_catalog, lidl_offers
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RAW = os.path.join(HERE, "data", "raw")
@@ -29,7 +29,27 @@ def queries():
     return out
 
 
+def run_coop(log):
+    """Coop: kogu kataloog võtme "*" all (otsing sõnade kaupa jättis sobivaid tooteid leidmata)."""
+    path = os.path.join(RAW, "coop.json")
+    if os.path.exists(path) and "--fresh" not in sys.argv:
+        if "*" in json.load(open(path, encoding="utf-8")):
+            log("coop: kataloog on juba olemas")
+            return
+    try:
+        items = coop_catalog(log)
+        if len(items) < 3000:  # terves kataloogis on üle 5000 toidukauba, poolik kataloog kaotaks tooteid
+            raise RuntimeError("kataloog jäi poolikuks, %d toodet" % len(items))
+    except Exception as e:
+        log(f"coop: kataloog ebaõnnestus: {e}")
+        return
+    json.dump({"*": items}, open(path, "w", encoding="utf-8"), ensure_ascii=False)
+    log(f"coop: kataloogis {len(items)} toidukaupa")
+
+
 def run_store(store, qs, log):
+    if store == "coop":
+        return run_coop(log)
     path = os.path.join(RAW, store + ".json")
     cache = {}
     if os.path.exists(path) and "--fresh" not in sys.argv:
