@@ -666,11 +666,15 @@ ing("kilu", "Vürtsikilufilee", "g", "kala", 200, 18,
     ["vürtsikilu", "vürtsikilu filee", "kilufilee"], [r"kilu"],
     r"tomati|õlis|õli\b|suitsu|sprot|pasteet|määre|võie|salat|kotlet|praetud|kassi|koera|leib|võileib|"
     r"munavõi|sinepi|tilli|hapukoore|kreem|kastmes|kaste|krõps|snäkk", (80, 1100), loose=False)
+# Maitsestatud heeringas ei ole soolaheeringafilee. 16.11.2026 tõi Rimi kampaania nimekirja "Heeringafileetükid
+# ananassiga": see oli väikestest pakkidest odavaim ja välistavas mustris polnud ananassi. Poed lühendavad nimesid
+# ("sib.", "till.", "kast.", "maits.", "Kuumsuit.", "Külm/s", "Mar.", "kurg."), seega on mustrid tüve järgi.
 ing("heeringas", "Soolaheeringafilee", "g", "kala", 220, 17,
     ["heeringafilee", "soolaheeringas", "heeringas"], [r"heeringa|heeringas"],
-    r"hapukoore|kastmes|kaste|salat|pasteet|määre|rull|marineeritud|marin|äädik|sinepi|tilli|sibula|vürtsi|"
-    r"tomati|kassi|koera|suitsu|grill|praetud|leib|võileib|vorm\b|kaaviar|mari\b|veinikastmes|apelsini|koore|"
-    r"jogurti|majoneesi|kurgi|peedi|porgandi|seene|seente|karri|forshmak|kreem|munaga|juurvilja|köögivilja|maitseain|"
+    r"hapukoore|kastmes|kaste|kast\.|salat|pasteet|määre|rull|rollmops|marineeritud|marin|\bmar\.|äädik|sinep|till|"
+    r"sibul|sib\.|vürtsi|tomati|kassi|koera|suit|külm/s|grill|praetud|leib|võileib|vorm\b|kaaviar|mari\b|"
+    r"veinikastmes|apelsini|koore|jogurti|majoneesi|kurg|peedi|porgandi|seene|seente|puravik|karri|forshmak|kreem|"
+    r"munaga|juurvilja|köögivilja|maits|ürti|ürdi|mädarõi|ananass|sõstra|kadaka|\bgini|tarrend|tarret|sült|"
     r"pallike",
     (150, 1600), loose=False)
 # Piim, kuivained, konservid, leib
