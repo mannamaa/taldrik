@@ -1,6 +1,6 @@
 {
- "date": "2026-11-22",
- "dateText": "22.11.2026",
+ "date": "2026-11-23",
+ "dateText": "23.11.2026",
  "sources": "Selver, Rimi, Barbora (Maxima), Coop ja Lidli nädalapakkumised",
  "items": {
   "hakkliha": {
@@ -30,6 +30,28 @@
    ],
    "rimi": [
     {
+     "name": "Hakklihasegu sealihast, jahut.Rimi Smart 350g",
+     "price": 1.39,
+     "regular": 1.39,
+     "size": 350.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/hakkliha/seahakkliha/hakklihasegu-sealihast-jahut-rimi-smart-350g/p/815631",
+     "perPiece": false,
+     "until": null,
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_815631_PCE_EE"
+    },
+    {
+     "name": "Delikatess seahakkliha M&M 300g",
+     "price": 2.75,
+     "regular": 2.75,
+     "size": 300.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/hakkliha/seahakkliha/delikatess-seahakkliha-m-m-300g/p/986458",
+     "perPiece": false,
+     "until": null,
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_986458_PCE_EE"
+    },
+    {
      "name": "Seahakkliha 500g",
      "price": 1.99,
      "regular": 3.55,
@@ -39,17 +61,6 @@
      "perPiece": false,
      "until": null,
      "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_901869_PCE_EE"
-    },
-    {
-     "name": "Penne hakklihakastmega 350g",
-     "price": 2.89,
-     "regular": 2.89,
-     "size": 350.0,
-     "loose": false,
-     "url": "https://www.rimi.ee/epood/ee/tooted/valmistoit/jahutatud-valmistoit/penne-hakklihakastmega-350g/p/2000664",
-     "perPiece": false,
-     "until": null,
-     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_2000664_PCE_EE"
     }
    ],
    "barbora": [
@@ -100,15 +111,15 @@
      "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740171075532.jpg"
     },
     {
-     "name": "Paneeritud hakksnitsel Maks&Moorits 400g",
-     "price": 2.89,
-     "regular": 2.89,
-     "size": 400.0,
+     "name": "Perehakklihasegu Rakvere 300g",
+     "price": 1.49,
+     "regular": 1.49,
+     "size": 300.0,
      "loose": false,
-     "url": "https://coophaapsalu.ee/toode/pan-hakksnitsel-400g/",
+     "url": "https://coophaapsalu.ee/toode/rlk-perehakklihasegu-300g/",
      "perPiece": false,
      "until": null,
-     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740171183688.jpg"
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4740003014920-1.png"
     }
    ]
   },
@@ -152,15 +163,15 @@
    ],
    "barbora": [
     {
-     "name": "Br.rinnafilee A-klass WELL DONE,500g",
-     "price": 2.99,
-     "regular": 2.99,
+     "name": "Br.rinnafilee WELL DONE ABta,500g",
+     "price": 4.49,
+     "regular": 4.49,
      "size": 500.0,
      "loose": false,
-     "url": "https://barbora.ee/p/broileri-rinnafilee-well-done-500-g",
+     "url": "https://barbora.ee/p/br-rinnafilee-well-done-abta-500-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/85df5b4b-cadb-4d99-b53a-f0443d0c945d_s.png"
+     "image": "https://cdn.barbora.ee/products/95becf87-2b2e-420f-8fb1-e903ed14f7fd_s.png"
     },
     {
      "name": "Br.rinnafilee sisetk A-kl WELL DONE,400g",
@@ -291,17 +302,6 @@
      "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_812478_PCE_EE"
     },
     {
-     "name": "Sea kaelakarbonaad kondita, viil. Rimi 340g",
-     "price": 2.99,
-     "regular": 2.99,
-     "size": 340.0,
-     "loose": false,
-     "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sealiha/varske-sealiha/sea-kaelakarbonaad-kondita-viil-rimi-340g/p/288361",
-     "perPiece": false,
-     "until": null,
-     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_288361_PCE_EE"
-    },
-    {
      "name": "Sealihaguljašš M&M 400g",
      "price": 2.79,
      "regular": 3.25,
@@ -382,15 +382,15 @@
    ],
    "coop": [
     {
-     "name": "Suitsutatud supikogu Maks&Moorits kg ~900g v/p",
-     "price": 2.65,
-     "regular": 2.65,
-     "size": null,
-     "loose": true,
-     "url": "https://coophaapsalu.ee/toode/mm-suitsutatud-supikogu-kg-900g-v-p/",
+     "name": "Suitsukont Rannarootsi 1.5kg",
+     "price": 3.29,
+     "regular": 3.29,
+     "size": 1500.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/rr-suitsukont-1-5kg/",
      "perPiece": false,
      "until": null,
-     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/23171641.png"
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/296498.png"
     }
    ]
   },
@@ -670,17 +670,6 @@
     }
    ],
    "rimi": [
-    {
-     "name": "Lõhefilee luudeta ja nahata Rimi 500g",
-     "price": 12.99,
-     "regular": 16.29,
-     "size": 500.0,
-     "loose": false,
-     "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/varske-kala/lohe-forell/lohefilee-luudeta-ja-nahata-rimi-500g/p/807669",
-     "perPiece": false,
-     "until": null,
-     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_807669_PCE_EE"
-    },
     {
      "name": "Atlandi lõhefilee luudeta ja Rimi 250g",
      "price": 9.65,
@@ -1376,6 +1365,17 @@
      "perPiece": false,
      "until": null,
      "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_4006614_PCE_EE"
+    },
+    {
+     "name": "Toidukoor Alma 20% 400ml",
+     "price": 1.99,
+     "regular": 1.99,
+     "size": 400.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/vahukoor-kohvikoor/toidukoor-alma-20-400ml/p/913701",
+     "perPiece": false,
+     "until": null,
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_913701_PCE_EE"
     }
    ],
    "barbora": [
@@ -1489,15 +1489,15 @@
      "image": "https://cdn.barbora.ee/products/f28e3d59-8af8-46b3-ab7c-044f487e3868_s.png"
     },
     {
-     "name": "Või TERE 82%, 200g",
-     "price": 1.39,
-     "regular": 2.59,
-     "size": 200.0,
+     "name": "Või E-PIIM Eesti 82%, 250g",
+     "price": 2.29,
+     "regular": 2.29,
+     "size": 250.0,
      "loose": false,
-     "url": "https://barbora.ee/p/voi-tere-82-proc-200-g",
+     "url": "https://barbora.ee/p/voi-e-piim-eesti-82-proc-250-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/70c08857-bbc4-4d3a-b244-99f991fef2b5_s.png"
+     "image": "https://cdn.barbora.ee/products/1cb4f5cc-792e-461a-9923-0c00711a404f_s.png"
     }
    ],
    "coop": [
@@ -1533,6 +1533,19 @@
      "perPiece": false,
      "until": null,
      "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/6408430030026.png"
+    }
+   ],
+   "lidl": [
+    {
+     "name": "Pilos Või 82%",
+     "price": 0.99,
+     "regular": 0.99,
+     "size": 200.0,
+     "loose": false,
+     "url": "https://www.lidl.ee/p/pilos-voi-82/p11461471",
+     "perPiece": false,
+     "until": "2026-11-29",
+     "image": "https://www.lidl.ee/assets/gcp370cddd6f74349db93146c6b70a1324b.png"
     }
    ]
   },
@@ -1598,37 +1611,26 @@
    ],
    "barbora": [
     {
-     "name": "Juust Gouda WELL DONE viilutatud, 400g",
-     "price": 2.99,
-     "regular": 2.99,
-     "size": 400.0,
+     "name": "Juust Gouda FARM MILK viil. 45%, 500g",
+     "price": 2.89,
+     "regular": 2.89,
+     "size": 500.0,
      "loose": false,
-     "url": "https://barbora.ee/p/juust-gouda-well-done-viilutatud-400-g",
+     "url": "https://barbora.ee/p/juust-gouda-farm-milk-viil-45-proc-500-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/b4c5825b-3e89-4c41-be70-fd0a365fdd7e_s.png"
+     "image": "https://cdn.barbora.ee/products/dc2a3317-2bb0-430d-a3eb-5d3ade8d0cad_s.png"
     },
     {
-     "name": "Riivjuust Gouda FARM MILK, 150g",
-     "price": 1.25,
-     "regular": 1.25,
-     "size": 150.0,
+     "name": "Juust Gouda FARM MILK 45% 250g",
+     "price": 1.79,
+     "regular": 1.79,
+     "size": 250.0,
      "loose": false,
-     "url": "https://barbora.ee/p/riivjuust-gouda-farm-milk-150-g",
+     "url": "https://barbora.ee/p/juust-gouda-farm-milk-45-proc-250-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/b49268db-8742-4ee1-8037-caceab003c50_s.png"
-    },
-    {
-     "name": "Juust täispiimast EESTI viilutatud, 450g",
-     "price": 3.79,
-     "regular": 3.79,
-     "size": 450.0,
-     "loose": false,
-     "url": "https://barbora.ee/p/juust-taispiimast-eesti-viilutatud-450-g",
-     "perPiece": false,
-     "until": null,
-     "image": "https://cdn.barbora.ee/products/a240fe09-cd8f-4d89-90c4-2ffafde98a97_s.png"
+     "image": "https://cdn.barbora.ee/products/f1a854e0-9b13-4bec-860c-042755bb0c36_s.png"
     }
    ],
    "coop": [
@@ -2080,6 +2082,17 @@
    ],
    "coop": [
     {
+     "name": "Rehe rukkileib vormileib 600g Eesti Pagar",
+     "price": 0.65,
+     "regular": 0.65,
+     "size": 600.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/rehe-rukkileib-600g/",
+     "perPiece": false,
+     "until": null,
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086008069.jpg"
+    },
+    {
      "name": "Peenleib Coop 490g viil",
      "price": 0.79,
      "regular": 0.79,
@@ -2089,17 +2102,6 @@
      "perPiece": false,
      "until": null,
      "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740660009789.png"
-    },
-    {
-     "name": "Pealinna teraleib 390g Eesti Pagar",
-     "price": 0.95,
-     "regular": 0.95,
-     "size": 390.0,
-     "loose": false,
-     "url": "https://coophaapsalu.ee/toode/pealinna-teraleib-390g/",
-     "perPiece": false,
-     "until": null,
-     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740086020009.png"
     },
     {
      "name": "Täisterarukkileib Ruks 800g Leibur",
@@ -2791,15 +2793,26 @@
   "pasta": {
    "selver": [
     {
-     "name": "Makaronid Elbows, BALTIX, 400 g",
-     "price": 0.28,
-     "regular": 0.28,
+     "name": "Pasta Cornetti, PRESTO, 400 g",
+     "price": 0.79,
+     "regular": 0.79,
      "size": 400.0,
      "loose": false,
-     "url": "https://www.selver.ee/makaronid-elbows-baltix-400-g",
+     "url": "https://www.selver.ee/pasta-cornetti-presto-400-g",
      "perPiece": false,
      "until": null,
-     "image": "https://www.selver.ee/img/200/200/resize/4/7/4742298001234.jpg"
+     "image": "https://www.selver.ee/img/200/200/resize/4/7/4750020050351.jpg"
+    },
+    {
+     "name": "Durumnisujahupasta Fusilli, TARTU MILL, 500 g",
+     "price": 1.15,
+     "regular": 1.15,
+     "size": 500.0,
+     "loose": false,
+     "url": "https://www.selver.ee/durumnisujahupasta-fusilli-tartu-mill-500-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://www.selver.ee/img/200/200/resize/4/7/4750020050559.jpg"
     }
    ],
    "rimi": [
@@ -3545,19 +3558,6 @@
      "until": null,
      "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4770074000010.png"
     }
-   ],
-   "lidl": [
-    {
-     "name": "Valge suhkur",
-     "price": 0.59,
-     "regular": 0.59,
-     "size": 1000.0,
-     "loose": false,
-     "url": "https://www.lidl.ee/p/valge-suhkur/p11461764",
-     "perPiece": false,
-     "until": "2026-11-22",
-     "image": "https://www.lidl.ee/assets/gcpfd617090b8154b6ab2e0c032b01091c7.png"
-    }
    ]
   },
   "moos": {
@@ -3901,28 +3901,6 @@
   "tomatid": {
    "selver": [
     {
-     "name": "Tükeldatud tomatid, CAMPAGNA, 400 g",
-     "price": 1.11,
-     "regular": 1.11,
-     "size": 400.0,
-     "loose": false,
-     "url": "https://www.selver.ee/tukeldatud-tomatid-campagna-400-g",
-     "perPiece": false,
-     "until": null,
-     "image": "https://www.selver.ee/img/200/200/resize/8/0/8005391804062.jpg"
-    },
-    {
-     "name": "Purustatud tomatid, ELDORADO, 390 g",
-     "price": 2.02,
-     "regular": 2.02,
-     "size": 390.0,
-     "loose": false,
-     "url": "https://www.selver.ee/purustatud-tomatid-eldorado-390-g",
-     "perPiece": false,
-     "until": null,
-     "image": "https://www.selver.ee/img/200/200/resize/6/4/6410706402925.jpg"
-    },
-    {
      "name": "Tomatid omas mahlas, MÕISAPROUA, 1 kg",
      "price": 3.04,
      "regular": 3.04,
@@ -3932,6 +3910,17 @@
      "perPiece": false,
      "until": null,
      "image": "https://www.selver.ee/img/200/200/resize/4/7/4748001005285.jpg"
+    },
+    {
+     "name": "Kooritud tomatid, CAMPAGNA, 400 g",
+     "price": 1.39,
+     "regular": 1.39,
+     "size": 400.0,
+     "loose": false,
+     "url": "https://www.selver.ee/kooritud-tomatid-campagna-400-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://www.selver.ee/img/200/200/resize/8/0/8005391604068.jpg"
     }
    ],
    "rimi": [
@@ -4755,15 +4744,15 @@
    ],
    "barbora": [
     {
-     "name": "Brokoli, 400g",
+     "name": "Külmutatud brokkoli WELL DONE, 400g",
      "price": 1.69,
-     "regular": 2.19,
+     "regular": 1.69,
      "size": 400.0,
      "loose": false,
-     "url": "https://barbora.ee/p/brokoli-400-g-80901",
+     "url": "https://barbora.ee/p/kulmutatud-brokkoli-well-done-400-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/38e719b7-7aee-445d-a993-bf7147553993_s.png"
+     "image": "https://cdn.barbora.ee/products/0f9a3548-2c16-4746-9cc0-f612511219cc_s.png"
     }
    ],
    "coop": [
@@ -4882,8 +4871,8 @@
    "selver": [
     {
      "name": "Kartul pesemata, kg",
-     "price": 0.37,
-     "regular": 0.37,
+     "price": 0.35,
+     "regular": 0.35,
      "size": null,
      "loose": true,
      "url": "https://www.selver.ee/kartul-pesemata-kg",
@@ -5001,8 +4990,8 @@
    "selver": [
     {
      "name": "Mugulsibul, kg",
-     "price": 0.49,
-     "regular": 0.49,
+     "price": 0.39,
+     "regular": 0.39,
      "size": null,
      "loose": true,
      "url": "https://www.selver.ee/mugulsibul-kg",
@@ -5109,8 +5098,8 @@
    "selver": [
     {
      "name": "Peakapsas, kg",
-     "price": 0.59,
-     "regular": 0.59,
+     "price": 0.35,
+     "regular": 0.35,
      "size": null,
      "loose": true,
      "url": "https://www.selver.ee/peakapsas-kg",
@@ -5256,15 +5245,15 @@
      "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740660009598.jpg"
     },
     {
-     "name": "Hapukapsas porgandiga 500g pakitud",
-     "price": 1.79,
-     "regular": 1.79,
-     "size": 500.0,
+     "name": "Hapukapsas porgandiga 900g",
+     "price": 2.39,
+     "regular": 2.39,
+     "size": 900.0,
      "loose": false,
-     "url": "https://coophaapsalu.ee/toode/hapukapsas-500g/",
+     "url": "https://coophaapsalu.ee/toode/hapukapsas-porgandiga-900g-eesti/",
      "perPiece": false,
      "until": null,
-     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740175000233.jpg"
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/02/4742368000969.png"
     }
    ]
   },
@@ -5308,7 +5297,19 @@
      "image": "https://cdn.barbora.ee/products/b7623186-86bf-4d62-8f62-3bf57ca8c00f_s.png"
     }
    ],
-   "coop": []
+   "coop": [
+    {
+     "name": "Punane peet kg",
+     "price": 0.69,
+     "regular": 0.69,
+     "size": null,
+     "loose": true,
+     "url": "https://coophaapsalu.ee/toode/punane-peet-kg/",
+     "perPiece": false,
+     "until": null,
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23009566.jpg"
+    }
+   ]
   },
   "kurk": {
    "selver": [
@@ -5339,15 +5340,15 @@
    ],
    "barbora": [
     {
-     "name": "Kurk pikk, kiles, kg",
-     "price": 2.69,
-     "regular": 3.29,
+     "name": "Kurk Luunja, kg",
+     "price": 4.69,
+     "regular": 4.69,
      "size": null,
      "loose": true,
-     "url": "https://barbora.ee/p/kurk-pikk-kiles-kg",
+     "url": "https://barbora.ee/p/kurk-luunja-kg",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/c7c6f16b-3fe0-4890-99be-e1eddede2cfb_s.png"
+     "image": "https://cdn.barbora.ee/products/63a0f57e-e805-4366-96d0-de7d688f89ef_s.png"
     }
    ],
    "coop": [
@@ -5362,27 +5363,14 @@
      "until": null,
      "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/23035300.png"
     }
-   ],
-   "lidl": [
-    {
-     "name": "Kurk",
-     "price": 0.79,
-     "regular": 1.15,
-     "size": 300.0,
-     "loose": false,
-     "url": "https://www.lidl.ee/p/kurk/p11151055",
-     "perPiece": false,
-     "until": "2026-11-29",
-     "image": "https://www.lidl.ee/assets/gcp21e2ea720f764cd1a0f243908b8ef6ad.png"
-    }
    ]
   },
   "tomat": {
    "selver": [
     {
      "name": "Tomat, kg",
-     "price": 2.49,
-     "regular": 2.49,
+     "price": 1.79,
+     "regular": 1.79,
      "size": null,
      "loose": true,
      "url": "https://www.selver.ee/tomat-kg",
@@ -5435,8 +5423,8 @@
    "selver": [
     {
      "name": "Paprika punane, kg",
-     "price": 2.69,
-     "regular": 2.69,
+     "price": 2.29,
+     "regular": 2.29,
      "size": null,
      "loose": true,
      "url": "https://www.selver.ee/paprika-punane-kg",
@@ -5548,19 +5536,6 @@
      "until": null,
      "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4742960010021.jpg"
     }
-   ],
-   "lidl": [
-    {
-     "name": "Šampinjon, valge",
-     "price": 1.59,
-     "regular": 2.29,
-     "size": 400.0,
-     "loose": false,
-     "url": "https://www.lidl.ee/p/sampinjon-valge/p11029536",
-     "perPiece": false,
-     "until": "2026-11-29",
-     "image": "https://www.lidl.ee/assets/gcp67f1773654dc4c50bcaa536da6aaf00c.png"
-    }
    ]
   },
   "banaan": {
@@ -5621,8 +5596,8 @@
    "selver": [
     {
      "name": "Õun Paulared, kg",
-     "price": 0.79,
-     "regular": 0.79,
+     "price": 0.49,
+     "regular": 0.49,
      "size": null,
      "loose": true,
      "url": "https://www.selver.ee/oun-paulared-kg",
@@ -5668,6 +5643,19 @@
      "perPiece": false,
      "until": null,
      "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23009555.jpg"
+    }
+   ],
+   "lidl": [
+    {
+     "name": "Õun Royal Gala",
+     "price": 1.39,
+     "regular": 1.89,
+     "size": 1000.0,
+     "loose": false,
+     "url": "https://www.lidl.ee/p/oun-royal-gala/p11150985",
+     "perPiece": false,
+     "until": "2026-11-29",
+     "image": "https://www.lidl.ee/assets/gcpfbb643fd73874194ac75c645ce33633e.png"
     }
    ]
   },
@@ -5898,15 +5886,15 @@
      "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740572004346.png"
     },
     {
-     "name": "Kodujuust hapukoorega Piimameister Otto 330g",
-     "price": 1.85,
-     "regular": 1.85,
-     "size": 330.0,
+     "name": "Kodujuust klassikaline Coop 380g",
+     "price": 1.79,
+     "regular": 1.79,
+     "size": 380.0,
      "loose": false,
-     "url": "https://coophaapsalu.ee/toode/kodujuust-hapuk-ga-330g/",
+     "url": "https://coophaapsalu.ee/toode/kodujuust-klassik-380g/",
      "perPiece": false,
      "until": null,
-     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740572004360.png"
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740660009383.png"
     }
    ]
   },
@@ -6131,6 +6119,17 @@
    ],
    "rimi": [
     {
+     "name": "Mahl spinati, piparmündi värsk. press. 250ml",
+     "price": 3.29,
+     "regular": 3.29,
+     "size": 250.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/varske-mahl-smuuti/varske-mahl/mahl-spinati-piparmundi-varsk-press-250ml/p/1373463",
+     "perPiece": false,
+     "until": null,
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_1373463_PCE_EE"
+    },
+    {
      "name": "Beebispinat VEG 1kl, 100gr",
      "price": 1.59,
      "regular": 1.59,
@@ -6140,17 +6139,6 @@
      "perPiece": false,
      "until": null,
      "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_947057_PCE_EE"
-    },
-    {
-     "name": "Salat Spinat Rimi 1kl, 65g",
-     "price": 1.19,
-     "regular": 1.59,
-     "size": 65.0,
-     "loose": false,
-     "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/rohelised-salatid/salat-spinat-rimi-1kl-65g/p/297779",
-     "perPiece": false,
-     "until": null,
-     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_297779_PCE_EE"
     }
    ],
    "barbora": [
@@ -6296,19 +6284,6 @@
      "until": null,
      "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23008319.jpg"
     }
-   ],
-   "lidl": [
-    {
-     "name": "Suvikõrvits",
-     "price": 1.49,
-     "regular": 2.19,
-     "size": 1000.0,
-     "loose": false,
-     "url": "https://www.lidl.ee/p/suvikorvits/p11151073",
-     "perPiece": false,
-     "until": "2026-11-29",
-     "image": "https://www.lidl.ee/assets/gcpb729fba58f874cef8fa7cf7044f61e46.png"
-    }
    ]
   },
   "salat": {
@@ -6364,15 +6339,15 @@
    ],
    "coop": [
     {
-     "name": "Rooma salat kg kiles",
-     "price": 4.99,
-     "regular": 4.99,
+     "name": "Jääsalat kg",
+     "price": 3.59,
+     "regular": 3.59,
      "size": null,
      "loose": true,
-     "url": "https://coophaapsalu.ee/toode/rooma-salat-kg/",
+     "url": "https://coophaapsalu.ee/toode/jaasalat-kg/",
      "perPiece": false,
      "until": null,
-     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23009301.jpg"
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23008527.jpg"
     }
    ]
   },
@@ -6416,15 +6391,26 @@
    ],
    "barbora": [
     {
-     "name": "Veise välisfilee,kg",
-     "price": 18.49,
-     "regular": 18.49,
-     "size": null,
-     "loose": true,
-     "url": "https://barbora.ee/p/veise-valisfilee-kg",
+     "name": "Veise abalih.steik kondit.WELL DONE,220g",
+     "price": 6.39,
+     "regular": 7.99,
+     "size": 220.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/veise-abalih-steik-kondit-well-done-220-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/bf57e00c-edb9-4be8-9785-fcff68741a68_s.png"
+     "image": "https://cdn.barbora.ee/products/cc28bdf6-797d-43fa-ae29-e565bb139147_s.png"
+    },
+    {
+     "name": "Veise välisfilee steik WELL DONE, 240g",
+     "price": 8.99,
+     "regular": 8.99,
+     "size": 240.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/veise-valisfilee-steik-well-done-240-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/4c2ca80d-f181-48f6-aed7-965d689c0aaf_s.png"
     }
    ],
    "coop": [
@@ -6457,15 +6443,15 @@
    ],
    "rimi": [
     {
-     "name": "Veisehakkliha mass Rimi Smart 400g",
-     "price": 3.75,
-     "regular": 3.75,
-     "size": 400.0,
-     "loose": false,
-     "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/hakkliha/veisehakkliha/veisehakkliha-mass-rimi-smart-400g/p/816059",
+     "name": "Mahe lihaveise hakkliha külmutat. kg Rohuline",
+     "price": 21.9,
+     "regular": 21.9,
+     "size": null,
+     "loose": true,
+     "url": "https://www.rimi.ee/epood/ee/tooted/talu-toidab/talu-toidab-kulmutatud-tooted/mahe-lihaveise-hakkliha-kulmutat-kg-rohuline/p/284305",
      "perPiece": false,
      "until": null,
-     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_816059_PCE_EE"
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_284305_KGM_EE"
     }
    ],
    "barbora": [
@@ -6479,20 +6465,21 @@
      "perPiece": false,
      "until": null,
      "image": "https://cdn.barbora.ee/products/b9a19eaa-49c9-4752-8801-5584e30d96d6_s.png"
-    },
-    {
-     "name": "Veisehakkliha laagerdatud WELL DONE,450g",
-     "price": 7.99,
-     "regular": 7.99,
-     "size": 450.0,
-     "loose": false,
-     "url": "https://barbora.ee/p/veisehakkliha-laagerdatud-well-done-450-g",
-     "perPiece": false,
-     "until": null,
-     "image": "https://cdn.barbora.ee/products/0943dfef-96c6-4f75-995e-cd7f253b5efa_s.png"
     }
    ],
-   "coop": []
+   "coop": [
+    {
+     "name": "Mahe rohumaaveise hakkliha Liivimaa 300g jahutatud",
+     "price": 6.49,
+     "regular": 6.49,
+     "size": 300.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/liivimaa-mahe-rohumaaveise-hakkliha-300g/",
+     "perPiece": false,
+     "until": null,
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/4740456009160.png"
+    }
+   ]
   },
   "krevetid": {
    "selver": [
@@ -6757,6 +6744,17 @@
      "perPiece": false,
      "until": null,
      "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_998805_PCE_EE"
+    },
+    {
+     "name": "Burgerikukkel seesamiseemnetega Leibur 420g",
+     "price": 3.99,
+     "regular": 3.99,
+     "size": 420.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/koorikleib-kuklid/burgerikukkel-seesamiseemnetega-leibur-420g/p/996347",
+     "perPiece": false,
+     "until": null,
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_996347_PCE_EE"
     }
    ],
    "barbora": [
@@ -6783,6 +6781,17 @@
      "perPiece": false,
      "until": null,
      "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740086011519.png"
+    },
+    {
+     "name": "Brioche burgerikukkel 280g Leibur",
+     "price": 3.49,
+     "regular": 3.49,
+     "size": 280.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/brioche-bur-kukkel-280g/",
+     "perPiece": false,
+     "until": null,
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740072265919.png"
     }
    ]
   },
@@ -7584,17 +7593,6 @@
      "perPiece": false,
      "until": null,
      "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_4000769_PCE_EE"
-    },
-    {
-     "name": "Tofu maitsestamata Bon Vegan 250g",
-     "price": 2.95,
-     "regular": 2.95,
-     "size": 250.0,
-     "loose": false,
-     "url": "https://www.rimi.ee/epood/ee/tooted/vegantooted/sojatooted/tofu-tempeh/tofu-maitsestamata-bon-vegan-250g/p/932332",
-     "perPiece": false,
-     "until": null,
-     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_932332_PCE_EE"
     }
    ],
    "barbora": [
@@ -7822,6 +7820,17 @@
      "perPiece": false,
      "until": null,
      "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_805484_PCE_EE"
+    },
+    {
+     "name": "Sink Pancetta viilutatud Veroni 110g",
+     "price": 3.99,
+     "regular": 3.99,
+     "size": 110.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/vinnutatud-lihatooted/sink-pancetta-viilutatud-veroni-110g/p/976200",
+     "perPiece": false,
+     "until": null,
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_976200_PCE_EE"
     }
    ],
    "barbora": [],
@@ -7960,7 +7969,19 @@
      "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_297913_PCE_EE"
     }
    ],
-   "barbora": [],
+   "barbora": [
+    {
+     "name": "Varsseller, 350g",
+     "price": 1.75,
+     "regular": 1.75,
+     "size": 350.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/varsseller-350-g-81136",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/b9cd49d4-61f0-442e-81b4-9df554c0d1cc_s.png"
+    }
+   ],
    "coop": []
   },
   "oliivid": {
@@ -8025,17 +8046,6 @@
    ],
    "barbora": [
     {
-     "name": "Rohelised kiv-ta oliivid EXTRA LINE 180g",
-     "price": 0.59,
-     "regular": 0.59,
-     "size": 180.0,
-     "loose": false,
-     "url": "https://barbora.ee/p/rohelised-kiv-ta-oliivid-extra-line-180-g",
-     "perPiece": false,
-     "until": null,
-     "image": "https://cdn.barbora.ee/products/6e7ea90f-61f2-462f-91b2-2b3124a7f128_s.png"
-    },
-    {
      "name": "Rohel. kivideta oliivid EXTRA LINE 900g",
      "price": 3.59,
      "regular": 3.59,
@@ -8045,6 +8055,17 @@
      "perPiece": false,
      "until": null,
      "image": "https://cdn.barbora.ee/products/ff1e3240-004c-4018-a66e-fccac2844983_s.png"
+    },
+    {
+     "name": "Mustad kivideta oliivid EXTRA LINE 880g",
+     "price": 3.59,
+     "regular": 3.59,
+     "size": 880.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/mustad-kivideta-oliivid-extra-line-880-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/88312f07-ced0-44f3-8076-6360319393ef_s.png"
     }
    ],
    "coop": [
@@ -8132,17 +8153,6 @@
      "perPiece": false,
      "until": null,
      "image": "https://cdn.barbora.ee/products/c5e7b934-d87c-4211-9ca3-2a8ded0541df_s.png"
-    },
-    {
-     "name": "Petersell kiles,30g",
-     "price": 0.89,
-     "regular": 0.89,
-     "size": 30.0,
-     "loose": false,
-     "url": "https://barbora.ee/p/petersell-kiles-30-g",
-     "perPiece": false,
-     "until": null,
-     "image": "https://cdn.barbora.ee/products/27878766-1f4d-4cf3-bb5e-d04f464f69e8_s.png"
     }
    ],
    "coop": [
@@ -8279,19 +8289,7 @@
      "image": "https://www.selver.ee/img/200/200/resize/4/7/4741116000510.jpg"
     }
    ],
-   "rimi": [
-    {
-     "name": "Roheline sibul pakitud 100g",
-     "price": 1.89,
-     "regular": 1.89,
-     "size": 100.0,
-     "loose": false,
-     "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/maitsetaimed/maitsetaimed/roheline-sibul-pakitud-100g/p/4011922",
-     "perPiece": false,
-     "until": null,
-     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_4011922_PCE_EE"
-    }
-   ],
+   "rimi": [],
    "barbora": [
     {
      "name": "Roheline sibul pakitud 150g",
@@ -8576,15 +8574,15 @@
    ],
    "coop": [
     {
-     "name": "S/K seavälisfilee Rannarootsi ~500g v/p",
-     "price": 10.9,
-     "regular": 10.9,
-     "size": null,
-     "loose": true,
-     "url": "https://coophaapsalu.ee/toode/s-k-seavalisfilee-kg/",
+     "name": "Seavälisfilee kuubikud Maks&Moorits 400g",
+     "price": 4.19,
+     "regular": 4.19,
+     "size": 400.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/mm-seavalisfilee-kuubikud-400g/",
      "perPiece": false,
      "until": null,
-     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/23296741.png"
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/4740171177274.png"
     }
    ]
   },
@@ -8715,26 +8713,15 @@
    ],
    "barbora": [
     {
-     "name": "Maitselt mahedad verivorstid M&M,900g",
+     "name": "Verivorst Maitselt Mahe M&M,kg-lett",
      "price": 3.99,
      "regular": 3.99,
-     "size": 900.0,
-     "loose": false,
-     "url": "https://barbora.ee/p/maitselt-mahedad-verivorstid-m-m-900-g",
+     "size": null,
+     "loose": true,
+     "url": "https://barbora.ee/p/verivorst-maitselt-mahe-m-m-kg-lett",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/019db461-bca5-4ec2-a97a-7a891196e432_s.png"
-    },
-    {
-     "name": "Memme verivorst M&M, 500g",
-     "price": 2.49,
-     "regular": 2.49,
-     "size": 500.0,
-     "loose": false,
-     "url": "https://barbora.ee/p/memme-verivorst-m-m-500-g",
-     "perPiece": false,
-     "until": null,
-     "image": "https://cdn.barbora.ee/products/d4d1f26f-0b52-41dd-b836-8c1edbb1b35d_s.png"
+     "image": "https://cdn.barbora.ee/products/569f9404-04af-4546-87fa-339e7ac7e9db_s.png"
     }
    ],
    "coop": [
@@ -9117,15 +9104,15 @@
    ],
    "coop": [
     {
-     "name": "Keefir 2.5% Valio Gefilus 1kg purepakk",
-     "price": 1.25,
-     "regular": 1.25,
+     "name": "Keefir 2.5% Farmi 1kg kilepakk",
+     "price": 0.75,
+     "regular": 0.75,
      "size": 1000.0,
      "loose": false,
-     "url": "https://coophaapsalu.ee/toode/keefir-2-5-gefilus-1kg/",
+     "url": "https://coophaapsalu.ee/toode/keefir-2-5-farmi-1kg/",
      "perPiece": false,
      "until": null,
-     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125321043.jpg"
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740123000933.png"
     }
    ]
   },
@@ -9644,17 +9631,6 @@
      "perPiece": false,
      "until": null,
      "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_183485_PCE_EE"
-    },
-    {
-     "name": "Pohlamoos Rimi 400g",
-     "price": 3.99,
-     "regular": 3.99,
-     "size": 400.0,
-     "loose": false,
-     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/magusad-hoidised/moos-ja-marmelaad/pohlamoos-rimi-400g/p/818938",
-     "perPiece": false,
-     "until": null,
-     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_818938_PCE_EE"
     }
    ],
    "barbora": [
@@ -10042,15 +10018,15 @@
    ],
    "coop": [
     {
-     "name": "Sai Coop 500g viilutatud",
-     "price": 0.89,
-     "regular": 0.89,
+     "name": "Tosta röstsai viil 500g Eesti Pagar",
+     "price": 0.69,
+     "regular": 0.69,
      "size": 500.0,
      "loose": false,
-     "url": "https://coophaapsalu.ee/toode/sai-coop-500g/",
+     "url": "https://coophaapsalu.ee/toode/tosta-rostsai-500g/",
      "perPiece": false,
      "until": null,
-     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740660009802.png"
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086007222.png"
     },
     {
      "name": "Perenaise sai viil 320g Eesti Pagar",
@@ -10062,19 +10038,6 @@
      "perPiece": false,
      "until": null,
      "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086000728.jpg"
-    }
-   ],
-   "lidl": [
-    {
-     "name": "Sai Perenaise suur",
-     "price": 0.79,
-     "regular": 0.99,
-     "size": 500.0,
-     "loose": false,
-     "url": "https://www.lidl.ee/p/sai-perenaise-suur/p11479094",
-     "perPiece": false,
-     "until": "2026-11-22",
-     "image": "https://www.lidl.ee/assets/gcpa9572a6131a544dab217b8f46539ba67.png"
     }
    ]
   },
@@ -10755,15 +10718,15 @@
      "image": "https://cdn.barbora.ee/products/5ea64b64-dc24-460c-a5dd-07aed271517c_s.png"
     },
     {
-     "name": "Külm.pärmi-lehttaig.võiga WELL DONE 400g",
-     "price": 3.35,
-     "regular": 3.35,
+     "name": "Külm.pärmi-lehttaig.või.EESTI PAGAR,400g",
+     "price": 3.65,
+     "regular": 3.65,
      "size": 400.0,
      "loose": false,
-     "url": "https://barbora.ee/p/kulm-parmi-lehttaig-voiga-well-done-400-g",
+     "url": "https://barbora.ee/p/kulm-parmi-lehttaig-voi-eesti-pagar-400-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/73facf9c-2d99-4a41-a9bb-0d2bb2aad16a_s.png"
+     "image": "https://cdn.barbora.ee/products/53ae1d6c-9e7d-47d2-a719-19b5c125f509_s.png"
     }
    ],
    "coop": [
@@ -10911,19 +10874,7 @@
   },
   "seakoot": {
    "selver": [],
-   "rimi": [
-    {
-     "name": "Seakoot jahutatud Rimi Smart kg",
-     "price": 2.85,
-     "regular": 2.85,
-     "size": null,
-     "loose": true,
-     "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sealiha/varske-sealiha/seakoot-jahutatud-rimi-smart-kg/p/811970",
-     "perPiece": false,
-     "until": null,
-     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_811970_KGM_EE"
-    }
-   ],
+   "rimi": [],
    "barbora": [
     {
      "name": "Jahutatud seakoot WELL DONE,kg",
@@ -12153,15 +12104,15 @@
      "image": "https://cdn.barbora.ee/products/ad0d9fb9-82ed-4405-bc9c-69eba5d4db15_s.png"
     },
     {
-     "name": "Kreeka pähklid ARIMEX 1kg",
-     "price": 17.99,
-     "regular": 17.99,
-     "size": 1000.0,
+     "name": "Kooritud kreeka pähklid WELL DONE 500g",
+     "price": 6.99,
+     "regular": 6.99,
+     "size": 500.0,
      "loose": false,
-     "url": "https://barbora.ee/p/kreeka-pahklid-arimex-1-kg",
+     "url": "https://barbora.ee/p/kooritud-kreeka-pahklid-well-done-500-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/f67c1ece-03e9-47eb-94fc-45e5db15f016_s.png"
+     "image": "https://cdn.barbora.ee/products/70206ebb-1be3-4d73-9212-ec73569905f3_s.png"
     }
    ],
    "coop": [
@@ -13543,15 +13494,15 @@
      "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/4740562062943.png"
     },
     {
-     "name": "Hüva täissuitsuvorst 240g",
-     "price": 2.69,
-     "regular": 2.69,
-     "size": 240.0,
+     "name": "Suitsuvorst Tamula Wõro 350g",
+     "price": 2.39,
+     "regular": 2.39,
+     "size": 350.0,
      "loose": false,
-     "url": "https://coophaapsalu.ee/toode/t-s-vorst-huva-240g/",
+     "url": "https://coophaapsalu.ee/toode/woro-suitsuvorst-tamula-350g/",
      "perPiece": false,
      "until": null,
-     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740660010891.png"
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/4740562062950.png"
     }
    ]
   }
