@@ -989,5 +989,40 @@ ing("suitsuvorst", "Suitsuvorst", "g", "liha", 330, 15,
     ["suitsuvorst", "poolsuitsuvorst"], [r"suitsu\w*\s*vorst|suitsuvorst"],
     r"kana|kalkun|juustuga|pizza|piruka|snäkk|krõps|viilutatud\s+kana|vegan|taim", (150, 1100), loose=False)
 
+# ---------------------------------------------------------------- Poest valmis (purgid, 23.11.2026)
+# Retsepti "Osta poest valmis" versioonid (recipes.json "ready"). Ainult Salvesti ja Põltsamaa 530 g purgid: nende
+# supid on kontsentraadid (purgi sisu + umbes 0,5 l vett, Selveri product_storage_cond_use), põhiroad on söögivalmis.
+# Teiste tootjate purgid (poe oma, Mamma, Presto, "VALMIS!" 380 g, 3 MIN) on teise kontsentratsiooniga või
+# söögivalmis, seega jäävad välja. kcal ja valk on purgi sisu kohta: Põltsamaa annab need purgi sisu kohta, Salvest
+# valmis supi kohta (hernesupp: Põltsamaa 121, Salvest 60 x 2).
+JARS_EX = r"3\s*min|valmis|mamma|presto|rannarootsi|kitchen|extra\s*line|hulgi|\d\s*tk\b|\d\s*x\s*\d|3\s*kg|lihata"
+ing("seljankapurk", "Seljanka (purgisupp)", "g", "kons", 100, 5,
+    ["seljanka"], [r"seljanka", r"salvest|põltsamaa"],
+    JARS_EX + r"|suitsuribi|komplekt|põhi|vaakum", (500, 560), loose=False, ready=False)
+ing("borsipurk", "Borš (purgisupp)", "g", "kons", 80, 3.5,
+    ["borš", "borsh"], [r"bor[sš]", r"liha|kana", r"salvest|põltsamaa"],
+    JARS_EX + r"|hapukapsa|segu|bauer", (500, 560), loose=False, ready=False)
+ing("hernesupipurk", "Hernesupp (purgisupp)", "g", "kons", 120, 7,
+    ["hernesupp"], [r"hernesupp", r"liha", r"salvest|põltsamaa"],
+    JARS_EX + r"|maggi|kiir", (500, 580), loose=False, ready=False)
+ing("frikadellisupipurk", "Frikadellisupp (purgisupp)", "g", "kons", 110, 4.2,
+    ["frikadellisupp"], [r"frikadelli", r"supp", r"salvest|põltsamaa"],
+    JARS_EX + r"|kana", (500, 560), loose=False, ready=False)
+ing("hapukapsasupipurk", "Hapukapsasupp (purgisupp)", "g", "kons", 110, 3.5,
+    ["hapukapsasupp"], [r"hapukapsasupp", r"liha", r"salvest|põltsamaa"],
+    JARS_EX + r"|bor[sš]", (500, 560), loose=False, ready=False)
+ing("rassolnikupurk", "Rassolnik (purgisupp)", "g", "kons", 100, 3,
+    ["rassolnik"], [r"rassolnik", r"liha", r"salvest|põltsamaa"],
+    JARS_EX + r"|kana", (500, 560), loose=False, ready=False)
+ing("mulgikapsapurk", "Mulgikapsad (purgis)", "g", "kons", 118, 2.8,
+    ["mulgi kapsad", "mulgikapsad"], [r"mulgi\s*kaps", r"salvest|põltsamaa"],
+    JARS_EX + r"|puder", (500, 560), loose=False, ready=False)
+ing("guljassipurk", "Guljašš (purgis)", "g", "kons", 125, 6,
+    ["guljašš"], [r"gulja[sš]", r"salvest|põltsamaa"],
+    JARS_EX + r"|maitseaine", (500, 560), loose=False, ready=False)
+ing("pilaffipurk", "Pilaff (purgis)", "g", "kons", 135, 4,
+    ["pilaff"], [r"pilaff", r"salvest|põltsamaa"],
+    JARS_EX + r"|fitlap|kana", (500, 560), loose=False, ready=False)
+
 ING = {x["id"]: x for x in I}
-assert len(ING) == 173, len(ING)
+assert len(ING) == 182, len(ING)

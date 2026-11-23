@@ -158,6 +158,10 @@ MACROS = {
     "marjad": (0.4, 9),
     "edamame": (5.2, 5),
     "pelmeenid": (12, 28),
+    # poest valmis purgid (23.11.2026): purgi sisu 100 g kohta, Selveri andmetest (Salvesti supid x 2, vt ingredients.py)
+    "seljankapurk": (3.5, 11), "borsipurk": (3.5, 9), "hernesupipurk": (2.5, 16), "frikadellisupipurk": (5, 11),
+    "hapukapsasupipurk": (6.5, 9.5), "rassolnikupurk": (4.5, 12), "mulgikapsapurk": (8.4, 6.7), "guljassipurk": (8.5, 6),
+    "pilaffipurk": (6, 16),
     # puu- ja köögiviljad
     "kartul": (0.1, 16),
     "porgand": (0.2, 7),
