@@ -76,17 +76,6 @@
      "image": "https://cdn.barbora.ee/products/f06fcebf-9131-40c1-9842-c0eaa0f0fb48_s.png"
     },
     {
-     "name": "Delikatess seahakkliha M&M, 300g",
-     "price": 1.99,
-     "regular": 2.69,
-     "size": 300.0,
-     "loose": false,
-     "url": "https://barbora.ee/p/delikatess-seahakkliha-m-m-300-g",
-     "perPiece": false,
-     "until": null,
-     "image": "https://cdn.barbora.ee/products/a541a533-6b83-466f-a2a8-e7244f3ba7cb_s.png"
-    },
-    {
      "name": "Seahakkliha M&M, 500g",
      "price": 2.29,
      "regular": 2.29,
@@ -315,15 +304,26 @@
    ],
    "barbora": [
     {
-     "name": "Seakaelakarbonaad kondita WELL DONE,kg",
-     "price": 5.95,
-     "regular": 5.95,
-     "size": null,
-     "loose": true,
-     "url": "https://barbora.ee/p/seakaelakarbonaad-kondita-well-done-kg",
+     "name": "Seaguljašš WELL DONE,400g",
+     "price": 2.55,
+     "regular": 2.55,
+     "size": 400.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/seaguljass-well-done-400-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/962d1fc5-4617-4a93-ba5a-4162534d182b_s.png"
+     "image": "https://cdn.barbora.ee/products/5c7e4751-ae57-47cc-bbed-074a8333dec4_s.png"
+    },
+    {
+     "name": "Seakaelakarb.lõig.kondita WELL DONE,360g",
+     "price": 2.99,
+     "regular": 2.99,
+     "size": 360.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/seakaelakarb-loig-kondita-well-done-360-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/c8ad8df8-d226-4a07-8fcf-65fd54b3034b_s.png"
     }
    ],
    "coop": [
@@ -4514,15 +4514,15 @@
      "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_812088_PCE_EE"
     },
     {
-     "name": "Hapukurk Peipsi 425g/400g",
-     "price": 1.99,
-     "regular": 2.79,
-     "size": 400.0,
+     "name": "Hapukurk Salvest 675g",
+     "price": 3.49,
+     "regular": 3.49,
+     "size": 675.0,
      "loose": false,
-     "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/hapukurk-peipsi-425g-400g/p/947291",
+     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/kurgid/hapukurk-salvest-675g/p/1022503",
      "perPiece": false,
      "until": null,
-     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_947291_PCE_EE"
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_1022503_PCE_EE"
     }
    ],
    "barbora": [
@@ -5186,6 +5186,17 @@
    ],
    "rimi": [
     {
+     "name": "Hapukapsas porgandiga Jaagumäe 1kg",
+     "price": 1.99,
+     "regular": 1.99,
+     "size": 1000.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/hapukapsas-porgandiga-jaagumae-1kg/p/4012953",
+     "perPiece": false,
+     "until": null,
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_4012953_PCE_EE"
+    },
+    {
      "name": "Hapukapsas Kadarbiku 900g",
      "price": 2.45,
      "regular": 2.45,
@@ -5195,17 +5206,6 @@
      "perPiece": false,
      "until": null,
      "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_4004631_PCE_EE"
-    },
-    {
-     "name": "Hapukapsas porgandiga Rimi 800g",
-     "price": 2.59,
-     "regular": 2.59,
-     "size": 800.0,
-     "loose": false,
-     "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/hapukapsas-porgandiga-rimi-800g/p/816010",
-     "perPiece": false,
-     "until": null,
-     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_816010_PCE_EE"
     }
    ],
    "barbora": [
@@ -5338,19 +5338,7 @@
      "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_815307_PCE_EE"
     }
    ],
-   "barbora": [
-    {
-     "name": "Kurk Luunja, kg",
-     "price": 4.69,
-     "regular": 4.69,
-     "size": null,
-     "loose": true,
-     "url": "https://barbora.ee/p/kurk-luunja-kg",
-     "perPiece": false,
-     "until": null,
-     "image": "https://cdn.barbora.ee/products/63a0f57e-e805-4366-96d0-de7d688f89ef_s.png"
-    }
-   ],
+   "barbora": [],
    "coop": [
     {
      "name": "Kurk kiles kg",
@@ -7863,7 +7851,19 @@
      "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_278422_PCE_EE"
     }
    ],
-   "barbora": [],
+   "barbora": [
+    {
+     "name": "Kõva lambapiimajuust Pecorino Romano200g",
+     "price": 6.49,
+     "regular": 6.49,
+     "size": 200.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/kova-lambapiimajuust-pecorino-romano-200-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/5bc13a63-3f59-4924-a395-c87129587491_s.png"
+    }
+   ],
    "coop": []
   },
   "till": {
@@ -8574,15 +8574,15 @@
    ],
    "coop": [
     {
-     "name": "Seavälisfilee kuubikud Maks&Moorits 400g",
-     "price": 4.19,
-     "regular": 4.19,
-     "size": 400.0,
-     "loose": false,
-     "url": "https://coophaapsalu.ee/toode/mm-seavalisfilee-kuubikud-400g/",
+     "name": "S/K seavälisfilee Rannarootsi ~500g v/p",
+     "price": 10.9,
+     "regular": 10.9,
+     "size": null,
+     "loose": true,
+     "url": "https://coophaapsalu.ee/toode/s-k-seavalisfilee-kg/",
      "perPiece": false,
      "until": null,
-     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/4740171177274.png"
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/23296741.png"
     }
    ]
   },
@@ -8726,15 +8726,15 @@
    ],
    "coop": [
     {
-     "name": "Memme verivorst Maks&Moorits 500g",
-     "price": 1.59,
-     "regular": 1.59,
+     "name": "Verivorst Pärli Karni 500g",
+     "price": 2.19,
+     "regular": 2.19,
      "size": 500.0,
      "loose": false,
-     "url": "https://coophaapsalu.ee/toode/mm-memme-verivorst-500g/",
+     "url": "https://coophaapsalu.ee/toode/karni-verivorst-parli-500g/",
      "perPiece": false,
      "until": null,
-     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740171187211-1.png"
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4740579605447-1.png"
     },
     {
      "name": "Rõngasverivorst Karni 300g",
@@ -13503,6 +13503,591 @@
      "perPiece": false,
      "until": null,
      "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/4740562062950.png"
+    }
+   ]
+  },
+  "seljankapurk": {
+   "selver": [
+    {
+     "name": "Kodune seljanka, SALVEST, 530 g",
+     "price": 3.79,
+     "regular": 3.79,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://www.selver.ee/kodune-seljanka-salvest-530-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://www.selver.ee/img/200/200/resize/4/7/4740073040362.jpg"
+    }
+   ],
+   "rimi": [
+    {
+     "name": "Seljanka Põltsamaa 530g",
+     "price": 3.69,
+     "regular": 3.69,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/supid/seljanka-poltsamaa-530g/p/128638",
+     "perPiece": false,
+     "until": null,
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_128638_PCE_EE"
+    }
+   ],
+   "barbora": [
+    {
+     "name": "Kodune seljanka PÕLTSAMAA 530g",
+     "price": 3.55,
+     "regular": 3.55,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/kodune-seljanka-poltsamaa-530-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/2246bc31-b13f-45b0-b6e2-20220822204b_s.png"
+    }
+   ],
+   "coop": [
+    {
+     "name": "Kodune seljanka Põltsamaa 530g",
+     "price": 4.39,
+     "regular": 4.39,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/kodune-seljanka-530g/",
+     "perPiece": false,
+     "until": null,
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029061557-3.png"
+    }
+   ]
+  },
+  "borsipurk": {
+   "selver": [
+    {
+     "name": "Värskekapsaborš kanalihaga, SALVEST,530 g",
+     "price": 3.75,
+     "regular": 3.75,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://www.selver.ee/varskekapsabors-kanalihaga-salvest-530-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://www.selver.ee/img/200/200/resize/4/7/4740073002759.jpg"
+    }
+   ],
+   "rimi": [
+    {
+     "name": "Värske kapsa borš veiseliha Salvest 530g",
+     "price": 3.79,
+     "regular": 3.79,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/supid/varske-kapsa-bors-veiseliha-salvest-530g/p/100384",
+     "perPiece": false,
+     "until": null,
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_100384_PCE_EE"
+    }
+   ],
+   "barbora": [
+    {
+     "name": "Kanaborš PÕLTSAMAA 530g",
+     "price": 3.65,
+     "regular": 3.65,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/kanabors-poltsamaa-530-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/eedd805a-2929-4332-833a-5f404f3ec6b9_s.png"
+    }
+   ],
+   "coop": [
+    {
+     "name": "Borshisupp Põltsamaa 530g kanalihaga",
+     "price": 3.65,
+     "regular": 3.65,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/poltsamaa-kanaborsh-530g/",
+     "perPiece": false,
+     "until": null,
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740029061656-3.png"
+    }
+   ]
+  },
+  "hernesupipurk": {
+   "selver": [
+    {
+     "name": "Hernesupp sealihaga, SALVEST, 530 g",
+     "price": 2.89,
+     "regular": 2.89,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://www.selver.ee/hernesupp-sealihaga-salvest-530-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://www.selver.ee/img/200/200/resize/4/7/4740073040423.jpg"
+    },
+    {
+     "name": "Hernesupp suitsuribilihaga, SALVEST, 560 g",
+     "price": 3.49,
+     "regular": 3.49,
+     "size": 560.0,
+     "loose": false,
+     "url": "https://www.selver.ee/hernesupp-suitsuribilihaga-salvest-560-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://www.selver.ee/img/200/200/resize/4/7/4740073040768.jpg"
+    }
+   ],
+   "rimi": [
+    {
+     "name": "Hernesupp suitsulihaga Põltsamaa 530g",
+     "price": 3.39,
+     "regular": 3.39,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/supid/hernesupp-suitsulihaga-poltsamaa-530g/p/128003",
+     "perPiece": false,
+     "until": null,
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_128003_PCE_EE"
+    },
+    {
+     "name": "Hernesupp suitsuribilihaga Salvest 560g",
+     "price": 3.59,
+     "regular": 3.59,
+     "size": 560.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/supid/hernesupp-suitsuribilihaga-salvest-560g/p/153764",
+     "perPiece": false,
+     "until": null,
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_153764_PCE_EE"
+    }
+   ],
+   "barbora": [
+    {
+     "name": "Hernesupp SALVEST suitsuribilihaga 560g",
+     "price": 3.49,
+     "regular": 3.49,
+     "size": 560.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/hernesupp-salvest-suitsuribilihaga-560-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/02b0e257-c6c9-4836-a30c-ed9a6590df90_s.png"
+    },
+    {
+     "name": "Hernesupp suitsulihaga PÕLTSAMAA 530g",
+     "price": 3.45,
+     "regular": 3.45,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/hernesupp-suitsulihaga-poltsamaa-530-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/edd394e0-2573-46ce-9d9a-4f7d93181a44_s.png"
+    }
+   ],
+   "coop": [
+    {
+     "name": "Hernesupp Salvest 560g suitsuribilihaga",
+     "price": 3.55,
+     "regular": 3.55,
+     "size": 560.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/hernesupp-suitsurib-560g/",
+     "perPiece": false,
+     "until": null,
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073040768-1.png"
+    },
+    {
+     "name": "Hernesupp Põltsamaa 530g suitsulihaga",
+     "price": 3.39,
+     "regular": 3.39,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/hernesupp-suitsul-530g-2/",
+     "perPiece": false,
+     "until": null,
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029061052-3.png"
+    }
+   ]
+  },
+  "frikadellisupipurk": {
+   "selver": [
+    {
+     "name": "Frikadellisupp, PÕLTSAMAA, 530 g",
+     "price": 3.39,
+     "regular": 3.39,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://www.selver.ee/frikadellisupp-poltsamaa-530-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://www.selver.ee/img/200/200/resize/4/7/4740029061618.jpg"
+    }
+   ],
+   "rimi": [
+    {
+     "name": "Frikadellisupp Põltsamaa 530g",
+     "price": 2.59,
+     "regular": 2.59,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/supid/frikadellisupp-poltsamaa-530g/p/177508",
+     "perPiece": false,
+     "until": null,
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_177508_PCE_EE"
+    }
+   ],
+   "barbora": [
+    {
+     "name": "Frikadellisupp PÕLTSAMAA 530g",
+     "price": 3.75,
+     "regular": 3.75,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/frikadellisupp-poltsamaa-530-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/836592aa-7dda-4e40-983c-da450c5db10e_s.png"
+    }
+   ],
+   "coop": [
+    {
+     "name": "Frikadellisupp Põltsamaa 530g",
+     "price": 3.75,
+     "regular": 3.75,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/frikadellisupp-530g/",
+     "perPiece": false,
+     "until": null,
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029061618-1.png"
+    }
+   ]
+  },
+  "hapukapsasupipurk": {
+   "selver": [
+    {
+     "name": "Hapukapsasupp sealihaga, SALVEST, 530 g",
+     "price": 3.79,
+     "regular": 3.79,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://www.selver.ee/hapukapsasupp-sealihaga-salvest-530-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://www.selver.ee/img/200/200/resize/4/7/4740073050422.jpg"
+    }
+   ],
+   "rimi": [
+    {
+     "name": "Hapukapsasupp suitsulihaga Põltsamaa 530g",
+     "price": 3.69,
+     "regular": 3.69,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/supid/hapukapsasupp-suitsulihaga-poltsamaa-530g/p/128639",
+     "perPiece": false,
+     "until": null,
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_128639_PCE_EE"
+    }
+   ],
+   "barbora": [
+    {
+     "name": "Hapukapsasupp sealihaga SALVEST 530g",
+     "price": 3.79,
+     "regular": 3.79,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/hapukapsasupp-sealihaga-salvest-530-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/03794e90-5648-4a0e-bb33-bb483e8580ca_s.png"
+    }
+   ],
+   "coop": [
+    {
+     "name": "Hapukapsasupp Põltsamaa 530g suitsulihaga",
+     "price": 3.45,
+     "regular": 3.45,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/hapukapsasupp-530g/",
+     "perPiece": false,
+     "until": null,
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029061137.png"
+    }
+   ]
+  },
+  "rassolnikupurk": {
+   "selver": [
+    {
+     "name": "Rassolnik veiselihaga, SALVEST, 530 g",
+     "price": 3.69,
+     "regular": 3.69,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://www.selver.ee/rassolnik-veiselihaga-salvest-530-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://www.selver.ee/img/200/200/resize/4/7/4740073040249.jpg"
+    }
+   ],
+   "rimi": [
+    {
+     "name": "Rassolnik sealihaga Põltsamaa 530g",
+     "price": 3.75,
+     "regular": 3.75,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/supid/rassolnik-sealihaga-poltsamaa-530g/p/134237",
+     "perPiece": false,
+     "until": null,
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_134237_PCE_EE"
+    }
+   ],
+   "barbora": [
+    {
+     "name": "Rassolnik veiselihaga SALVEST 530g",
+     "price": 3.69,
+     "regular": 3.69,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/rassolnik-veiselihaga-salvest-530-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/6039c948-6442-4fe6-b87c-68f1be454b8f_s.png"
+    }
+   ],
+   "coop": [
+    {
+     "name": "Rassolnik Põltsamaa 530g sealihaga",
+     "price": 3.75,
+     "regular": 3.75,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/rassolnik-sealihaga-530g-2/",
+     "perPiece": false,
+     "until": null,
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029061106-1.png"
+    }
+   ]
+  },
+  "mulgikapsapurk": {
+   "selver": [
+    {
+     "name": "Mulgi kapsad, SALVEST, 530 g",
+     "price": 2.99,
+     "regular": 2.99,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://www.selver.ee/mulgi-kapsad-salvest-530-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://www.selver.ee/img/200/200/resize/4/7/4740073020326.jpg"
+    }
+   ],
+   "rimi": [
+    {
+     "name": "Mulgikapsad Salvest 530g",
+     "price": 2.99,
+     "regular": 2.99,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/valmistoit/mulgikapsad-salvest-530g/p/100347",
+     "perPiece": false,
+     "until": null,
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_100347_PCE_EE"
+    }
+   ],
+   "barbora": [
+    {
+     "name": "Mulgi kapsad SALVEST 530g",
+     "price": 2.99,
+     "regular": 2.99,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/mulgi-kapsad-salvest-530-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/433534a6-1cc2-4e5c-8cc0-3317de1574a1_s.png"
+    },
+    {
+     "name": "Mulgikapsas sealihaga PÕLTSAMAA 520g",
+     "price": 3.45,
+     "regular": 3.45,
+     "size": 520.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/mulgikapsas-sealihaga-poltsamaa-520-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/a230f57d-dc2c-4854-ae47-50486a027792_s.png"
+    }
+   ],
+   "coop": [
+    {
+     "name": "Mulgi kapsad Salvest 530g",
+     "price": 2.99,
+     "regular": 2.99,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/mulgi-kapsad-salvest530g/",
+     "perPiece": false,
+     "until": null,
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073020326.png"
+    },
+    {
+     "name": "Mulgikapsas sealihaga Põltsamaa 520g",
+     "price": 3.45,
+     "regular": 3.45,
+     "size": 520.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/mulgikapsas-sealih-520g/",
+     "perPiece": false,
+     "until": null,
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029061519.png"
+    }
+   ]
+  },
+  "guljassipurk": {
+   "selver": [
+    {
+     "name": "Guljašš, SALVEST, 530 g",
+     "price": 4.25,
+     "regular": 4.25,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://www.selver.ee/guljass-salvest-530-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://www.selver.ee/img/200/200/resize/4/7/4740073070437.jpg"
+    }
+   ],
+   "rimi": [
+    {
+     "name": "Kaste Guljašš Salvest 530g",
+     "price": 4.25,
+     "regular": 4.25,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/valmistoit/kaste-guljass-salvest-530g/p/120232",
+     "perPiece": false,
+     "until": null,
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_120232_PCE_EE"
+    }
+   ],
+   "barbora": [
+    {
+     "name": "Guljašš SALVEST 530g",
+     "price": 4.25,
+     "regular": 4.25,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/guljass-salvest-530-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/765b1fb7-a645-4e40-9ae8-2cad619224bb_s.png"
+    }
+   ],
+   "coop": [
+    {
+     "name": "Guljass Salvest 530g sealihaga",
+     "price": 4.29,
+     "regular": 4.29,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/guljass-salvest-530g/",
+     "perPiece": false,
+     "until": null,
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073070437.png"
+    }
+   ]
+  },
+  "pilaffipurk": {
+   "selver": [
+    {
+     "name": "Pilaff, SALVEST, 530 g",
+     "price": 3.65,
+     "regular": 3.65,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://www.selver.ee/pilaff-salvest-530-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://www.selver.ee/img/200/200/resize/4/7/4740073020166.jpg"
+    },
+    {
+     "name": "Pilaff sealihaga, PÕLTSAMAA, 520 g",
+     "price": 3.75,
+     "regular": 3.75,
+     "size": 520.0,
+     "loose": false,
+     "url": "https://www.selver.ee/pilaff-sealihaga-poltsamaa-520-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://www.selver.ee/img/200/200/resize/4/7/4740029061595.jpg"
+    }
+   ],
+   "rimi": [
+    {
+     "name": "Pilaff Salvest 530g",
+     "price": 3.79,
+     "regular": 3.79,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/valmistoit/pilaff-salvest-530g/p/104711",
+     "perPiece": false,
+     "until": null,
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_104711_PCE_EE"
+    }
+   ],
+   "barbora": [
+    {
+     "name": "Pilaff SALVEST 530g",
+     "price": 3.65,
+     "regular": 3.65,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/pilaff-salvest-530-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/21d31d3d-2f06-49a7-9a54-c90e93caeb76_s.png"
+    },
+    {
+     "name": "Pilaff PÕLTSAMAA 520g",
+     "price": 3.79,
+     "regular": 3.79,
+     "size": 520.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/pilaff-poltsamaa-520-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/6a0fb252-b62d-4e14-926a-9447dbe72090_s.png"
+    }
+   ],
+   "coop": [
+    {
+     "name": "Pilaff Põltsamaa 520g",
+     "price": 3.79,
+     "regular": 3.79,
+     "size": 520.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/pilaff-520g/",
+     "perPiece": false,
+     "until": null,
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740029061595-1.png"
+    },
+    {
+     "name": "Pilaff Salvest 530g sealihaga",
+     "price": 3.89,
+     "regular": 3.89,
+     "size": 530.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/pilaff-sealihaga-530g/",
+     "perPiece": false,
+     "until": null,
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073020166.png"
     }
    ]
   }
