@@ -1,6 +1,6 @@
 {
- "date": "2026-11-24",
- "dateText": "24.11.2026",
+ "date": "2026-11-25",
+ "dateText": "25.11.2026",
  "sources": "Selver, Rimi, Barbora (Maxima), Coop ja Lidli nädalapakkumised",
  "items": {
   "hakkliha": {
@@ -152,15 +152,26 @@
    ],
    "barbora": [
     {
-     "name": "Eestimaine br.rinnafilee TALLEGG ABta,kg",
-     "price": 9.35,
-     "regular": 9.35,
-     "size": null,
-     "loose": true,
-     "url": "https://barbora.ee/p/eestimaine-br-rinnafilee-tallegg-abta-kg",
+     "name": "Br.rinnafilee WELL DONE ABta,500g",
+     "price": 4.49,
+     "regular": 4.49,
+     "size": 500.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/br-rinnafilee-well-done-abta-500-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/94ca7fb6-6a8c-48a2-aa63-7cec79543b00_s.png"
+     "image": "https://cdn.barbora.ee/products/95becf87-2b2e-420f-8fb1-e903ed14f7fd_s.png"
+    },
+    {
+     "name": "Br.rinnafilee sisetk A-kl WELL DONE,400g",
+     "price": 3.99,
+     "regular": 3.99,
+     "size": 400.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/br-rinnafilee-sisetk-a-kl-well-done-400-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/adb1d798-4279-4a47-bfb0-f45133bb4f8c_s.png"
     }
    ],
    "coop": [
@@ -360,15 +371,15 @@
    ],
    "coop": [
     {
-     "name": "Suitsutatud supikogu Maks&Moorits kg ~900g v/p",
-     "price": 2.65,
-     "regular": 2.65,
-     "size": null,
-     "loose": true,
-     "url": "https://coophaapsalu.ee/toode/mm-suitsutatud-supikogu-kg-900g-v-p/",
+     "name": "Suitsukont Rannarootsi 1.5kg",
+     "price": 3.29,
+     "regular": 3.29,
+     "size": 1500.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/rr-suitsukont-1-5kg/",
      "perPiece": false,
      "until": null,
-     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/23171641.png"
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/296498.png"
     }
    ]
   },
@@ -488,6 +499,17 @@
    ],
    "barbora": [
     {
+     "name": "Keeduviinerid kanalihaga PORMET, 800g",
+     "price": 1.99,
+     "regular": 1.99,
+     "size": 800.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/keeduviinerid-kanalihaga-pormet-800-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/9bcf0eec-2279-4be8-be2d-ed12676e6968_s.png"
+    },
+    {
      "name": "Keeduviinerid PORMET, 520g",
      "price": 1.99,
      "regular": 1.99,
@@ -499,15 +521,15 @@
      "image": "https://cdn.barbora.ee/products/fb169e20-bb2b-4408-8f9c-d3b199135637_s.png"
     },
     {
-     "name": "Koduviiner M&M,500g",
-     "price": 2.05,
-     "regular": 2.05,
-     "size": 500.0,
+     "name": "Keeduviinerid sea&kanalihaga PORMET,1kg",
+     "price": 2.79,
+     "regular": 2.79,
+     "size": 1000.0,
      "loose": false,
-     "url": "https://barbora.ee/p/koduviiner-m-m-500-g",
+     "url": "https://barbora.ee/p/keeduviinerid-sea-kanalihaga-pormet-1-kg",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/a4f2060d-fe0a-4c52-bbe6-43456b941e29_s.png"
+     "image": "https://cdn.barbora.ee/products/76b56f4b-0601-4378-9241-5863e84316af_s.png"
     }
    ],
    "coop": [
@@ -575,37 +597,15 @@
    ],
    "barbora": [
     {
-     "name": "Külm.pangaasiuse filee, nahata,560g",
-     "price": 4.49,
-     "regular": 4.49,
-     "size": 560.0,
-     "loose": false,
-     "url": "https://barbora.ee/p/kulm-pangaasiuse-filee-nahata-560-g",
+     "name": "Sulatatud pakslaup-pangaasius filee, kg",
+     "price": 6.99,
+     "regular": 7.99,
+     "size": null,
+     "loose": true,
+     "url": "https://barbora.ee/p/sulatatud-pakslaup-pangaasius-filee-kg",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/f3e11e91-84e7-4e46-a8ce-94e4a81af728_s.png"
-    },
-    {
-     "name": "Külm. Arg. merluusifilee WELL DONE 400g",
-     "price": 4.59,
-     "regular": 4.59,
-     "size": 400.0,
-     "loose": false,
-     "url": "https://barbora.ee/p/kulm-arg-merluusifilee-well-done-400-g",
-     "perPiece": false,
-     "until": null,
-     "image": "https://cdn.barbora.ee/products/b4d1a3fe-9730-4799-a8f0-ce4de9c70ff4_s.png"
-    },
-    {
-     "name": "Külm.meriahvena filee nahaga, 600g",
-     "price": 6.29,
-     "regular": 6.29,
-     "size": 600.0,
-     "loose": false,
-     "url": "https://barbora.ee/p/kulm-meriahvena-filee-nahaga-600-g",
-     "perPiece": false,
-     "until": null,
-     "image": "https://cdn.barbora.ee/products/98e288c9-02a5-4947-93b8-743511ad1e2a_s.png"
+     "image": "https://cdn.barbora.ee/products/5b7c0db1-d23d-4868-9d46-2de35e084279_s.png"
     }
    ],
    "coop": [
@@ -1467,15 +1467,15 @@
      "image": "https://cdn.barbora.ee/products/f28e3d59-8af8-46b3-ab7c-044f487e3868_s.png"
     },
     {
-     "name": "Või E-PIIM Eesti 82%, 250g",
-     "price": 2.29,
-     "regular": 2.29,
-     "size": 250.0,
+     "name": "Või WELL DONE 82%, 170g",
+     "price": 1.19,
+     "regular": 1.19,
+     "size": 170.0,
      "loose": false,
-     "url": "https://barbora.ee/p/voi-e-piim-eesti-82-proc-250-g",
+     "url": "https://barbora.ee/p/voi-well-done-82-proc-170-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/1cb4f5cc-792e-461a-9923-0c00711a404f_s.png"
+     "image": "https://cdn.barbora.ee/products/c1fedf32-2005-4453-91a1-dfb4aea187a0_s.png"
     }
    ],
    "coop": [
@@ -1840,15 +1840,15 @@
      "image": "https://cdn.barbora.ee/products/5e7b6c8d-5d2c-4b0e-945b-cbf3a0e5cfe7_s.png"
     },
     {
-     "name": "Jogurt FARM MILK Naturaalne 3%, 400g",
-     "price": 0.91,
-     "regular": 0.91,
+     "name": "Kreeka jogurt FARM MILK natur.10%,400g",
+     "price": 0.89,
+     "regular": 0.89,
      "size": 400.0,
      "loose": false,
-     "url": "https://barbora.ee/p/jogurt-farm-milk-naturaalne-3-proc-400-g",
+     "url": "https://barbora.ee/p/kreeka-jogurt-farm-milk-natur-10-proc-400-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/670ba527-a3cc-4225-8c65-1bbdc1758fb5_s.png"
+     "image": "https://cdn.barbora.ee/products/517e4bac-dcac-425b-bba9-4550093ca4ae_s.png"
     }
    ],
    "coop": [
@@ -1941,8 +1941,8 @@
    "coop": [
     {
      "name": "Säästu kanamunad M 10tk",
-     "price": 1.49,
-     "regular": 1.49,
+     "price": 1.59,
+     "regular": 1.59,
      "size": 10.0,
      "loose": false,
      "url": "https://coophaapsalu.ee/toode/kanamunad-saastu-m-10tk/",
@@ -2684,15 +2684,26 @@
   "tatar": {
    "selver": [
     {
-     "name": "Tatar, SELVER, 1kg",
-     "price": 0.93,
-     "regular": 0.93,
+     "name": "Tatar, VESKI MATI, 1 kg",
+     "price": 2.25,
+     "regular": 2.25,
      "size": 1000.0,
      "loose": false,
-     "url": "https://www.selver.ee/tatar-selver-1kg",
+     "url": "https://www.selver.ee/tatar-veski-mati-1-kg",
      "perPiece": false,
      "until": null,
-     "image": "https://www.selver.ee/img/200/200/resize/4/7/4740581300071.jpg"
+     "image": "https://www.selver.ee/img/200/200/resize/4/7/4740281006679.jpg"
+    },
+    {
+     "name": "Tatar, VESKI MATI, 500 g",
+     "price": 1.65,
+     "regular": 1.65,
+     "size": 500.0,
+     "loose": false,
+     "url": "https://www.selver.ee/tatar-veski-mati-500-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://www.selver.ee/img/200/200/resize/4/7/4740281006778.jpg"
     }
    ],
    "rimi": [
@@ -2720,8 +2731,8 @@
     },
     {
      "name": "Tatar Baltix Fritar 1kg",
-     "price": 2.35,
-     "regular": 2.35,
+     "price": 2.69,
+     "regular": 2.69,
      "size": 1000.0,
      "loose": false,
      "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/tatratangud/tatar-baltix-fritar-1kg/p/126069",
@@ -2993,15 +3004,15 @@
    ],
    "barbora": [
     {
-     "name": "Lasanjelehed N108 DIVELLA 500g",
-     "price": 2.79,
-     "regular": 2.79,
+     "name": "Lasanjelehed Ondine DELVERDE 500g",
+     "price": 2.99,
+     "regular": 2.99,
      "size": 500.0,
      "loose": false,
-     "url": "https://barbora.ee/p/lasanjelehed-n-108-divella-500-g",
+     "url": "https://barbora.ee/p/lasanjelehed-ondine-delverde-500-g-86738",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/0778a7a4-83d6-4eb2-aa40-7eef37d20c93_s.png"
+     "image": "https://cdn.barbora.ee/products/711605d7-7bcf-468f-933c-27ca80af1888_s.png"
     }
    ],
    "coop": [
@@ -3633,15 +3644,15 @@
      "image": "https://cdn.barbora.ee/products/19256979-1a20-40dc-ab65-17e97f659324_s.png"
     },
     {
-     "name": "Aedmaasikamoos WELL DONE 350g",
-     "price": 2.85,
-     "regular": 2.85,
+     "name": "Jõhvikamoos WELL DONE 350g",
+     "price": 2.89,
+     "regular": 2.89,
      "size": 350.0,
      "loose": false,
-     "url": "https://barbora.ee/p/aedmaasikamoos-well-done-350-g",
+     "url": "https://barbora.ee/p/johvikamoos-well-done-350-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/8b7c1ea6-a9bf-463b-9423-cc2b735e8255_s.png"
+     "image": "https://cdn.barbora.ee/products/82252184-5d7e-45d5-9ce5-daae39543b02_s.png"
     },
     {
      "name": "Maasikamoos PÕLTSAMAA 600g",
@@ -5317,8 +5328,8 @@
    "rimi": [
     {
      "name": "Kurk RIMI 300g",
-     "price": 1.09,
-     "regular": 1.09,
+     "price": 1.19,
+     "regular": 1.19,
      "size": 300.0,
      "loose": false,
      "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kurk/kurk-rimi-300g/p/815307",
@@ -5437,15 +5448,26 @@
    ],
    "barbora": [
     {
-     "name": "Punane paprika 1.kl.,kg",
-     "price": 2.29,
-     "regular": 2.29,
-     "size": null,
-     "loose": true,
-     "url": "https://barbora.ee/p/punane-paprika-1-kl-kg",
+     "name": "Marin.punane paprika WELL DONE 680g",
+     "price": 2.25,
+     "regular": 2.25,
+     "size": 680.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/marin-punane-paprika-well-done-680-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/fe247046-eee6-4bcd-8202-5caab92c9450_s.png"
+     "image": "https://cdn.barbora.ee/products/6cdae222-b179-4b21-812f-baba6221b68c_s.png"
+    },
+    {
+     "name": "Paprika viilud MINU 630g",
+     "price": 3.39,
+     "regular": 3.39,
+     "size": 630.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/paprika-viilud-minu-630-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/0da5d796-1c99-436d-b44d-08be7ee97787_s.png"
     }
    ],
    "coop": [
@@ -6141,6 +6163,17 @@
      "perPiece": false,
      "until": null,
      "image": "https://cdn.barbora.ee/products/0d407a81-5841-43f0-aeca-02f502173d12_s.png"
+    },
+    {
+     "name": "Beebispinat WELL DONE 100g",
+     "price": 1.49,
+     "regular": 1.49,
+     "size": 100.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/beebispinat-well-done-100-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/babed403-d63b-4ea1-8fde-8d01ce54bd2a_s.png"
     }
    ],
    "coop": []
@@ -6196,15 +6229,15 @@
      "image": "https://cdn.barbora.ee/products/ecf9e295-5c83-4256-8abb-9e4cf6b56c5c_s.png"
     },
     {
-     "name": "Avokaado Ready to eat WELL DONE, 2tk",
-     "price": 2.49,
-     "regular": 2.49,
-     "size": 340.0,
+     "name": "Avokaado, tk min. 160g",
+     "price": 1.19,
+     "regular": 1.19,
+     "size": 160.0,
      "loose": false,
-     "url": "https://barbora.ee/p/avokaado-ready-to-eat-well-done-2-tk",
+     "url": "https://barbora.ee/p/avokaado-tk-min-160-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/0b1051c2-4131-4e58-a067-5f72ad156bf4_s.png"
+     "image": "https://cdn.barbora.ee/products/e951e28e-a3ca-4d35-b7bb-dcec0926ba75_s.png"
     }
    ],
    "coop": [
@@ -6250,15 +6283,15 @@
    ],
    "barbora": [
     {
-     "name": "Marin.tük.suvikõrvits GOSPODAROCKA 660g",
-     "price": 2.49,
-     "regular": 2.49,
-     "size": 660.0,
-     "loose": false,
-     "url": "https://barbora.ee/p/marin-tuk-suvikorvits-gospodarocka-660-g",
+     "name": "Suvikõrvits roheline, kg",
+     "price": 2.69,
+     "regular": 2.69,
+     "size": null,
+     "loose": true,
+     "url": "https://barbora.ee/p/suvikorvits-roheline-kg",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/903c04dc-82a0-4db1-986f-6785d3ec79ef_s.png"
+     "image": "https://cdn.barbora.ee/products/ee59a283-1992-43f3-bafc-fe24b8118f62_s.png"
     }
    ],
    "coop": [
@@ -6324,17 +6357,6 @@
      "perPiece": true,
      "until": null,
      "image": "https://cdn.barbora.ee/products/4ebe0587-eb43-4cfd-99bb-af67a496732a_s.png"
-    },
-    {
-     "name": "Jääsalat 400g",
-     "price": 1.99,
-     "regular": 1.99,
-     "size": 400.0,
-     "loose": false,
-     "url": "https://barbora.ee/p/jaasalat-1-tk-min-400-g",
-     "perPiece": false,
-     "until": null,
-     "image": "https://cdn.barbora.ee/products/acd3cd01-2e6c-4be5-b5c0-59bba75b249f_s.png"
     }
    ],
    "coop": [
@@ -7834,19 +7856,7 @@
     }
    ],
    "barbora": [],
-   "coop": [
-    {
-     "name": "Guanciale seapõsest kuubikud Gianni Negrini 100g",
-     "price": 4.99,
-     "regular": 4.99,
-     "size": 100.0,
-     "loose": false,
-     "url": "https://coophaapsalu.ee/toode/g-negrini-guanciale-seaposest-kuubik100g/",
-     "perPiece": false,
-     "until": null,
-     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/8003948010416.png"
-    }
-   ]
+   "coop": []
   },
   "pecorino": {
    "selver": [],
@@ -7992,19 +8002,7 @@
      "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_915029_PCE_EE"
     }
    ],
-   "barbora": [
-    {
-     "name": "Varsseller, 350g",
-     "price": 1.75,
-     "regular": 1.75,
-     "size": 350.0,
-     "loose": false,
-     "url": "https://barbora.ee/p/varsseller-350-g-81136",
-     "perPiece": false,
-     "until": null,
-     "image": "https://cdn.barbora.ee/products/b9cd49d4-61f0-442e-81b4-9df554c0d1cc_s.png"
-    }
-   ],
+   "barbora": [],
    "coop": []
   },
   "oliivid": {
@@ -8218,7 +8216,19 @@
     }
    ],
    "rimi": [],
-   "barbora": [],
+   "barbora": [
+    {
+     "name": "Basiilik WELL DONE, 20g",
+     "price": 1.35,
+     "regular": 1.35,
+     "size": 20.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/basiilik-well-done-20-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/b4c99e16-a451-4723-ade7-ee6a18c36417_s.png"
+    }
+   ],
    "coop": []
   },
   "koriander": {
@@ -8596,15 +8606,15 @@
    ],
    "coop": [
     {
-     "name": "S/K seavälisfilee Rannarootsi ~500g v/p",
-     "price": 10.9,
-     "regular": 10.9,
-     "size": null,
-     "loose": true,
-     "url": "https://coophaapsalu.ee/toode/s-k-seavalisfilee-kg/",
+     "name": "Seavälisfilee kuubikud Maks&Moorits 400g",
+     "price": 4.19,
+     "regular": 4.19,
+     "size": 400.0,
+     "loose": false,
+     "url": "https://coophaapsalu.ee/toode/mm-seavalisfilee-kuubikud-400g/",
      "perPiece": false,
      "until": null,
-     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/23296741.png"
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/4740171177274.png"
     }
    ]
   },
@@ -8735,28 +8745,39 @@
    ],
    "barbora": [
     {
-     "name": "Verivorst Maitselt Mahe M&M,kg-lett",
+     "name": "Maitselt mahedad verivorstid M&M,900g",
      "price": 3.99,
      "regular": 3.99,
-     "size": null,
-     "loose": true,
-     "url": "https://barbora.ee/p/verivorst-maitselt-mahe-m-m-kg-lett",
+     "size": 900.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/maitselt-mahedad-verivorstid-m-m-900-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/569f9404-04af-4546-87fa-339e7ac7e9db_s.png"
+     "image": "https://cdn.barbora.ee/products/019db461-bca5-4ec2-a97a-7a891196e432_s.png"
+    },
+    {
+     "name": "Memme verivorst M&M, 500g",
+     "price": 2.49,
+     "regular": 2.49,
+     "size": 500.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/memme-verivorst-m-m-500-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/d4d1f26f-0b52-41dd-b836-8c1edbb1b35d_s.png"
     }
    ],
    "coop": [
     {
-     "name": "Verivorst Pärli Karni 500g",
-     "price": 2.19,
-     "regular": 2.19,
+     "name": "Memme verivorst Maks&Moorits 500g",
+     "price": 1.59,
+     "regular": 1.59,
      "size": 500.0,
      "loose": false,
-     "url": "https://coophaapsalu.ee/toode/karni-verivorst-parli-500g/",
+     "url": "https://coophaapsalu.ee/toode/mm-memme-verivorst-500g/",
      "perPiece": false,
      "until": null,
-     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4740579605447-1.png"
+     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740171187211-1.png"
     },
     {
      "name": "Rõngasverivorst Karni 300g",
@@ -8906,15 +8927,15 @@
      "image": "https://cdn.barbora.ee/products/266ccae4-720b-410b-b558-28999a59b638_s.png"
     },
     {
-     "name": "Vürtsikilud KALURI, 500g",
-     "price": 2.39,
-     "regular": 2.39,
-     "size": 500.0,
+     "name": "Vürtsikilud Balti BRIIS, 400g",
+     "price": 1.95,
+     "regular": 1.95,
+     "size": 400.0,
      "loose": false,
-     "url": "https://barbora.ee/p/vurtsikilud-kaluri-500-g",
+     "url": "https://barbora.ee/p/vurtsikilud-balti-briis-400-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/2efc1cbf-9f15-484b-909f-d4a1c66e6008_s.png"
+     "image": "https://cdn.barbora.ee/products/5ba2b3a5-7493-4a8d-98dd-d34b0a50749f_s.png"
     }
    ],
    "coop": [
@@ -9015,17 +9036,6 @@
    ],
    "barbora": [
     {
-     "name": "Heeringafil.sool.tradits.õlis OCEAN 1kg",
-     "price": 5.49,
-     "regular": 5.49,
-     "size": 1000.0,
-     "loose": false,
-     "url": "https://barbora.ee/p/heeringafil-sool-tradits-olis-ocean-1-kg",
-     "perPiece": false,
-     "until": null,
-     "image": "https://cdn.barbora.ee/products/34bd7079-9cb9-4637-bf6d-35772474363e_s.png"
-    },
-    {
      "name": "Heeringafil.sool.tradits.OCEAN õlis,400g",
      "price": 2.29,
      "regular": 2.29,
@@ -9035,6 +9045,28 @@
      "perPiece": false,
      "until": null,
      "image": "https://cdn.barbora.ee/products/7994b4c4-8e9b-46c3-955b-41127817eb79_s.png"
+    },
+    {
+     "name": "Heeringafil.sool.tradits.OCEAN õlis,220g",
+     "price": 1.35,
+     "regular": 1.35,
+     "size": 220.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/heeringafil-sool-tradits-ocean-olis-220-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/92b74e03-51c8-413b-9bcb-e9d5be303767_s.png"
+    },
+    {
+     "name": "Heeringaf.Tradicine õlis EDEGA,1kg",
+     "price": 7.19,
+     "regular": 7.19,
+     "size": 1000.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/heeringaf-tradicine-olis-edega-1-kg",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/0e4cdee5-d7ab-4e3b-a042-6f936ad86ef3_s.png"
     }
    ],
    "coop": [
@@ -10579,7 +10611,19 @@
     }
    ],
    "rimi": [],
-   "barbora": [],
+   "barbora": [
+    {
+     "name": "Lillkapsas, kg",
+     "price": 3.39,
+     "regular": 3.39,
+     "size": null,
+     "loose": true,
+     "url": "https://barbora.ee/p/lillkapsas-kg",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/ec00e7df-8c32-46bd-97f0-e29f7afa8b6e_s.png"
+    }
+   ],
    "coop": [
     {
      "name": "Lillkapsas kg",
@@ -11963,6 +12007,17 @@
      "perPiece": false,
      "until": null,
      "image": "https://cdn.barbora.ee/products/07056828-21a9-4133-991e-13114c8360c2_s.png"
+    },
+    {
+     "name": "Mandlijahu JUST NATURE 400g",
+     "price": 9.99,
+     "regular": 9.99,
+     "size": 400.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/mandlijahu-just-nature-400-g",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/2d6a8735-519b-4365-8992-699858022e2b_s.png"
     }
    ],
    "coop": [
