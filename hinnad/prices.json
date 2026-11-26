@@ -1,6 +1,6 @@
 {
- "date": "2026-11-25",
- "dateText": "25.11.2026",
+ "date": "2026-11-26",
+ "dateText": "26.11.2026",
  "sources": "Selver, Rimi, Barbora (Maxima), Coop ja Lidli nädalapakkumised",
  "items": {
   "hakkliha": {
@@ -152,15 +152,15 @@
    ],
    "barbora": [
     {
-     "name": "Br.rinnafilee WELL DONE ABta,500g",
-     "price": 4.49,
-     "regular": 4.49,
+     "name": "Br.rinnafilee A-klass WELL DONE,500g",
+     "price": 2.99,
+     "regular": 2.99,
      "size": 500.0,
      "loose": false,
-     "url": "https://barbora.ee/p/br-rinnafilee-well-done-abta-500-g",
+     "url": "https://barbora.ee/p/broileri-rinnafilee-well-done-500-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/95becf87-2b2e-420f-8fb1-e903ed14f7fd_s.png"
+     "image": "https://cdn.barbora.ee/products/85df5b4b-cadb-4d99-b53a-f0443d0c945d_s.png"
     },
     {
      "name": "Br.rinnafilee sisetk A-kl WELL DONE,400g",
@@ -211,19 +211,7 @@
    ]
   },
   "kanakoivad": {
-   "selver": [
-    {
-     "name": "Eestimaine broileripoolkoib, TALLEGG, kg",
-     "price": 5.49,
-     "regular": 5.49,
-     "size": null,
-     "loose": true,
-     "url": "https://www.selver.ee/eestimaine-broileripoolkoib-tallegg-kg",
-     "perPiece": false,
-     "until": null,
-     "image": "https://www.selver.ee/img/200/200/resize/2/3/2364049200004.jpg"
-    }
-   ],
+   "selver": [],
    "rimi": [
     {
      "name": "Broileri poolkoivad värske A-klass Rimi kg",
@@ -649,15 +637,26 @@
    ],
    "rimi": [
     {
-     "name": "Jahutatud lõhefilee B-trim",
-     "price": 14.99,
-     "regular": 19.99,
-     "size": null,
-     "loose": true,
-     "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/varske-kala/lohe-forell/jahutatud-lohefilee-b-trim/p/901731",
+     "name": "Lõhefilee luudeta ja nahata Rimi 500g",
+     "price": 12.99,
+     "regular": 16.29,
+     "size": 500.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/varske-kala/lohe-forell/lohefilee-luudeta-ja-nahata-rimi-500g/p/807669",
      "perPiece": false,
      "until": null,
-     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_901731_KGM_EE"
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_807669_PCE_EE"
+    },
+    {
+     "name": "Atlandi lõhefilee luudeta ja Rimi 250g",
+     "price": 9.65,
+     "regular": 9.65,
+     "size": 250.0,
+     "loose": false,
+     "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/varske-kala/lohe-forell/atlandi-lohefilee-luudeta-ja-rimi-250g/p/807654",
+     "perPiece": false,
+     "until": null,
+     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_200/d_ecommerce:backend-fallback.png/MAT_807654_PCE_EE"
     }
    ],
    "barbora": [
@@ -1874,6 +1873,19 @@
      "until": null,
      "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740660009963.jpg"
     }
+   ],
+   "lidl": [
+    {
+     "name": "Pilos Kreeka jogurt 2,5%",
+     "price": 0.75,
+     "regular": 0.99,
+     "size": 360.0,
+     "loose": false,
+     "url": "https://www.lidl.ee/p/pilos-kreeka-jogurt-2-5/p11453562",
+     "perPiece": false,
+     "until": "2026-11-29",
+     "image": "https://www.lidl.ee/assets/gcpc6c84087d28c42d0b76739aa583128b9.png"
+    }
    ]
   },
   "munad": {
@@ -3004,15 +3016,15 @@
    ],
    "barbora": [
     {
-     "name": "Lasanjelehed Ondine DELVERDE 500g",
-     "price": 2.99,
-     "regular": 2.99,
+     "name": "Lasanjelehed N108 DIVELLA 500g",
+     "price": 2.79,
+     "regular": 2.79,
      "size": 500.0,
      "loose": false,
-     "url": "https://barbora.ee/p/lasanjelehed-ondine-delverde-500-g-86738",
+     "url": "https://barbora.ee/p/lasanjelehed-n-108-divella-500-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/711605d7-7bcf-468f-933c-27ca80af1888_s.png"
+     "image": "https://cdn.barbora.ee/products/0778a7a4-83d6-4eb2-aa40-7eef37d20c93_s.png"
     }
    ],
    "coop": [
@@ -3549,8 +3561,8 @@
    "coop": [
     {
      "name": "Valge suhkur Dansukker 1kg",
-     "price": 0.83,
-     "regular": 0.83,
+     "price": 0.89,
+     "regular": 0.89,
      "size": 1000.0,
      "loose": false,
      "url": "https://coophaapsalu.ee/toode/suhkur-dansukker-1kg/",
@@ -4949,8 +4961,8 @@
    "rimi": [
     {
      "name": "Porgand pestud, kg Eesti",
-     "price": 0.45,
-     "regular": 0.45,
+     "price": 0.41,
+     "regular": 0.41,
      "size": null,
      "loose": true,
      "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/porgand/porgand-pestud-kg-eesti/p/276076",
@@ -5003,8 +5015,8 @@
    "rimi": [
     {
      "name": "Sibul, 50/70 mm, kg",
-     "price": 0.45,
-     "regular": 0.45,
+     "price": 0.43,
+     "regular": 0.43,
      "size": null,
      "loose": true,
      "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/sibulkoogiviljad/sibul-50-70-mm-kg/p/278770",
@@ -5111,8 +5123,8 @@
    "rimi": [
     {
      "name": "Peakapsas, kg Eesti",
-     "price": 0.37,
-     "regular": 0.37,
+     "price": 0.36,
+     "regular": 0.36,
      "size": null,
      "loose": true,
      "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kapsas/peakapsas-kg-eesti/p/200903",
@@ -5308,6 +5320,19 @@
      "perPiece": false,
      "until": null,
      "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23009566.jpg"
+    }
+   ],
+   "lidl": [
+    {
+     "name": "Peet",
+     "price": 0.39,
+     "regular": 0.69,
+     "size": 1000.0,
+     "loose": false,
+     "url": "https://www.lidl.ee/p/peet/p11029663",
+     "perPiece": false,
+     "until": "2026-11-29",
+     "image": "https://www.lidl.ee/assets/gcpa3793dd05a264fb7aefc080737c99106.png"
     }
    ]
   },
@@ -5673,12 +5698,12 @@
   "sidrun": {
    "selver": [
     {
-     "name": "Sidrun Eureka, kg",
+     "name": "Sidrun Mayer, kg",
      "price": 2.29,
      "regular": 2.29,
      "size": null,
      "loose": true,
-     "url": "https://www.selver.ee/sidrun-eureka-kg",
+     "url": "https://www.selver.ee/sidrun-mayer-kg",
      "perPiece": false,
      "until": null,
      "image": "https://www.selver.ee/img/200/200/resize/2/7/2700004000003.jpg"
@@ -5924,8 +5949,8 @@
     },
     {
      "name": "Tuunikala filee soolvees, CALVO, 160 g neto 122 g",
-     "price": 3.39,
-     "regular": 3.39,
+     "price": 3.49,
+     "regular": 3.49,
      "size": 122.0,
      "loose": false,
      "url": "https://www.selver.ee/tuunikala-filee-soolvees-calvo-160-g-neto-122-g",
@@ -6229,15 +6254,15 @@
      "image": "https://cdn.barbora.ee/products/ecf9e295-5c83-4256-8abb-9e4cf6b56c5c_s.png"
     },
     {
-     "name": "Avokaado, tk min. 160g",
-     "price": 1.19,
-     "regular": 1.19,
-     "size": 160.0,
+     "name": "Avokaado Ready to eat WELL DONE, 2tk",
+     "price": 2.49,
+     "regular": 2.49,
+     "size": 340.0,
      "loose": false,
-     "url": "https://barbora.ee/p/avokaado-tk-min-160-g",
+     "url": "https://barbora.ee/p/avokaado-ready-to-eat-well-done-2-tk",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/e951e28e-a3ca-4d35-b7bb-dcec0926ba75_s.png"
+     "image": "https://cdn.barbora.ee/products/0b1051c2-4131-4e58-a067-5f72ad156bf4_s.png"
     }
    ],
    "coop": [
@@ -6283,15 +6308,15 @@
    ],
    "barbora": [
     {
-     "name": "Suvikõrvits roheline, kg",
-     "price": 2.69,
-     "regular": 2.69,
-     "size": null,
-     "loose": true,
-     "url": "https://barbora.ee/p/suvikorvits-roheline-kg",
+     "name": "Marin.tük.suvikõrvits GOSPODAROCKA 660g",
+     "price": 2.49,
+     "regular": 2.49,
+     "size": 660.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/marin-tuk-suvikorvits-gospodarocka-660-g",
      "perPiece": false,
      "until": null,
-     "image": "https://cdn.barbora.ee/products/ee59a283-1992-43f3-bafc-fe24b8118f62_s.png"
+     "image": "https://cdn.barbora.ee/products/903c04dc-82a0-4db1-986f-6785d3ec79ef_s.png"
     }
    ],
    "coop": [
@@ -6507,8 +6532,8 @@
     },
     {
      "name": "Kooritud krevetid 250/350, VIKING, 160 g",
-     "price": 5.96,
-     "regular": 5.96,
+     "price": 6.59,
+     "regular": 6.59,
      "size": 160.0,
      "loose": false,
      "url": "https://www.selver.ee/kooritud-krevetid-250-350-viking-160-g",
@@ -6577,20 +6602,33 @@
      "until": null,
      "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4740590071375.png"
     }
+   ],
+   "lidl": [
+    {
+     "name": "Vannamei krevetid",
+     "price": 2.99,
+     "regular": 2.99,
+     "size": 350.0,
+     "loose": false,
+     "url": "https://www.lidl.ee/p/vannamei-krevetid/p11475652",
+     "perPiece": false,
+     "until": "2026-11-29",
+     "image": "https://www.lidl.ee/assets/gcp4f823d09f87e4777b7c42f411db2077c.png"
+    }
    ]
   },
   "sisefilee": {
    "selver": [
     {
      "name": "Sea sisefilee, RAKVERE, kg",
-     "price": 10.99,
-     "regular": 10.99,
+     "price": 10.49,
+     "regular": 10.49,
      "size": null,
      "loose": true,
-     "url": "https://www.selver.ee/sea-sisefilee-rakvere-kg",
+     "url": "https://www.selver.ee/sea-sisefilee-rakvere-kg-t000035748",
      "perPiece": false,
      "until": null,
-     "image": "https://www.selver.ee/img/200/200/resize/2/7/2710843000003.jpg"
+     "image": "https://www.selver.ee/img/200/200/resize/2/3/2313554700004.jpg"
     }
    ],
    "rimi": [
@@ -7520,8 +7558,8 @@
    "rimi": [
     {
      "name": "Seesamiseemned Rimi 200g",
-     "price": 2.75,
-     "regular": 2.75,
+     "price": 2.85,
+     "regular": 2.85,
      "size": 200.0,
      "loose": false,
      "url": "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/kuivatatud-puuviljad-ja-pahklid/seemned/seesamiseemned-rimi-200g/p/805846",
@@ -8308,17 +8346,6 @@
      "perPiece": false,
      "until": null,
      "image": "https://www.selver.ee/img/200/200/resize/4/7/4741116000497.jpg"
-    },
-    {
-     "name": "Roheline sibul, GRÜNE FEE, 35 g",
-     "price": 2.19,
-     "regular": 2.19,
-     "size": 35.0,
-     "loose": false,
-     "url": "https://www.selver.ee/roheline-sibul-grune-fee-35-g",
-     "perPiece": false,
-     "until": null,
-     "image": "https://www.selver.ee/img/200/200/resize/4/7/4741116000510.jpg"
     }
    ],
    "rimi": [],
@@ -8557,8 +8584,8 @@
    "selver": [
     {
      "name": "Sea välisfilee, RAKVERE, kg",
-     "price": 9.99,
-     "regular": 9.99,
+     "price": 8.99,
+     "regular": 8.99,
      "size": null,
      "loose": true,
      "url": "https://www.selver.ee/sea-valisfilee-rakvere-kg-t000035746",
@@ -9013,8 +9040,8 @@
    "rimi": [
     {
      "name": "Atl. heeringafilee Rimi Smart õlis 1kg",
-     "price": 5.79,
-     "regular": 5.79,
+     "price": 5.85,
+     "regular": 5.85,
      "size": 1000.0,
      "loose": false,
      "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/toodeldud-kalatooted/soolatud-marineeritud-heeringad/atl-heeringafilee-rimi-smart-olis-1kg/p/813531",
@@ -9024,8 +9051,8 @@
     },
     {
      "name": "Soolaheeringafilee õlis Rimi Smart 240g/175g",
-     "price": 1.49,
-     "regular": 1.49,
+     "price": 1.55,
+     "regular": 1.55,
      "size": 240.0,
      "loose": false,
      "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/toodeldud-kalatooted/soolatud-marineeritud-heeringad/soolaheeringafilee-olis-rimi-smart-240g-175g/p/811810",
@@ -9036,6 +9063,17 @@
    ],
    "barbora": [
     {
+     "name": "Heeringafil.sool.tradits.õlis OCEAN 1kg",
+     "price": 5.49,
+     "regular": 5.49,
+     "size": 1000.0,
+     "loose": false,
+     "url": "https://barbora.ee/p/heeringafil-sool-tradits-olis-ocean-1-kg",
+     "perPiece": false,
+     "until": null,
+     "image": "https://cdn.barbora.ee/products/34bd7079-9cb9-4637-bf6d-35772474363e_s.png"
+    },
+    {
      "name": "Heeringafil.sool.tradits.OCEAN õlis,400g",
      "price": 2.29,
      "regular": 2.29,
@@ -9045,28 +9083,6 @@
      "perPiece": false,
      "until": null,
      "image": "https://cdn.barbora.ee/products/7994b4c4-8e9b-46c3-955b-41127817eb79_s.png"
-    },
-    {
-     "name": "Heeringafil.sool.tradits.OCEAN õlis,220g",
-     "price": 1.35,
-     "regular": 1.35,
-     "size": 220.0,
-     "loose": false,
-     "url": "https://barbora.ee/p/heeringafil-sool-tradits-ocean-olis-220-g",
-     "perPiece": false,
-     "until": null,
-     "image": "https://cdn.barbora.ee/products/92b74e03-51c8-413b-9bcb-e9d5be303767_s.png"
-    },
-    {
-     "name": "Heeringaf.Tradicine õlis EDEGA,1kg",
-     "price": 7.19,
-     "regular": 7.19,
-     "size": 1000.0,
-     "loose": false,
-     "url": "https://barbora.ee/p/heeringaf-tradicine-olis-edega-1-kg",
-     "perPiece": false,
-     "until": null,
-     "image": "https://cdn.barbora.ee/products/0e4cdee5-d7ab-4e3b-a042-6f936ad86ef3_s.png"
     }
    ],
    "coop": [
@@ -10611,19 +10627,7 @@
     }
    ],
    "rimi": [],
-   "barbora": [
-    {
-     "name": "Lillkapsas, kg",
-     "price": 3.39,
-     "regular": 3.39,
-     "size": null,
-     "loose": true,
-     "url": "https://barbora.ee/p/lillkapsas-kg",
-     "perPiece": false,
-     "until": null,
-     "image": "https://cdn.barbora.ee/products/ec00e7df-8c32-46bd-97f0-e29f7afa8b6e_s.png"
-    }
-   ],
+   "barbora": [],
    "coop": [
     {
      "name": "Lillkapsas kg",
@@ -11443,8 +11447,8 @@
    "coop": [
     {
      "name": "Vegan määre soolaga avokaado maitsega Naturale200g",
-     "price": 2.39,
-     "regular": 2.39,
+     "price": 2.49,
+     "regular": 2.49,
      "size": 200.0,
      "loose": false,
      "url": "https://coophaapsalu.ee/toode/naturale-vegan-maare-soolaga-avokaad200g/",
@@ -13225,8 +13229,8 @@
    "rimi": [
     {
      "name": "Päevalilleseemned kooritud Awake 150g",
-     "price": 0.5,
-     "regular": 0.5,
+     "price": 0.52,
+     "regular": 0.52,
      "size": 150.0,
      "loose": false,
      "url": "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/kuivatatud-puuviljad-ja-pahklid/seemned/paevalilleseemned-kooritud-awake-150g/p/804397",
